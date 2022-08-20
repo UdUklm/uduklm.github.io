@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#f03752">
+<meta name="generator" content="Hexo 5.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+  <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#f03752">
+
+<link rel="stylesheet" href="/css/main.css?verson=5.4">
+
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"www.ohmysites.com","root":"/","images":"/images","scheme":"Gemini","version":"8.2.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":true,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":true,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.1.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":false}};
+  </script>
+<meta name="description" content="在高二的一个夜晚，我无意中刷当时网易新闻 App 新推出的短视频功能（大概 2015 年，当时还没有抖音）刷到了凌晨 4 点，在我头痛欲裂的同时，我开始意识到一件事，互联网行业出现了一种颠覆性的新的玩法，并且我很明确地不喜欢这个新的事物。自那以后，我和自己明确了一个原则，那就是永不使用有刷不完的推荐信息流（包括但不限于视频）的手机 App。站在 2021 年的今天，我依旧艰难的坚持着这个原则。之所">
+<meta property="og:type" content="article">
+<meta property="og:title" content="黄、赌、毒，以及被滥用的推荐算法">
+<meta property="og:url" content="https://www.ohmysites.com/archives/19/">
+<meta property="og:site_name" content="霞之彼端">
+<meta property="og:description" content="在高二的一个夜晚，我无意中刷当时网易新闻 App 新推出的短视频功能（大概 2015 年，当时还没有抖音）刷到了凌晨 4 点，在我头痛欲裂的同时，我开始意识到一件事，互联网行业出现了一种颠覆性的新的玩法，并且我很明确地不喜欢这个新的事物。自那以后，我和自己明确了一个原则，那就是永不使用有刷不完的推荐信息流（包括但不限于视频）的手机 App。站在 2021 年的今天，我依旧艰难的坚持着这个原则。之所">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://www.ohmysites.com/archives/19/19_1.jpg">
+<meta property="article:published_time" content="2021-01-06T05:45:43.000Z">
+<meta property="article:modified_time" content="2021-01-06T06:34:30.000Z">
+<meta property="article:author" content="善国峻">
+<meta property="article:tag" content="互联网">
+<meta property="article:tag" content="推荐算法">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.ohmysites.com/archives/19/19_1.jpg">
+
+
+<link rel="canonical" href="https://www.ohmysites.com/archives/19/">
+
+
+<script data-pjax class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+<title>黄、赌、毒，以及被滥用的推荐算法 | 霞之彼端</title>
+  
+
+  <script data-pjax>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?4f92a9d224fbaf132652e580d3ea568a";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">霞之彼端</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>本站首页</a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>文章总览</a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>文章分类</a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签整理</a></li>
+        <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于更多</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>内容搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%89%8B%E6%9C%BA%E6%98%AF%E6%9C%80%E6%98%93%E8%8E%B7%E5%BE%97%E7%9A%84%E5%87%8F%E5%8E%8B%E7%8E%A9%E5%85%B7"><span class="nav-number">1.</span> <span class="nav-text"> 手机是最易获得的减压玩具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B4%A9%E6%AF%92%E5%BC%80%E8%B5%8C%E5%9C%BA%E7%9A%84%E4%BA%92%E8%81%94%E7%BD%91%E4%BC%81%E4%B8%9A"><span class="nav-number">2.</span> <span class="nav-text"> “贩毒开赌场”的互联网企业</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8E%A8%E8%8D%90%E7%AE%97%E6%B3%95%E6%89%80%E5%B8%A6%E6%9D%A5%E7%9A%84%E5%BD%B1%E5%93%8D"><span class="nav-number">3.</span> <span class="nav-text"> 推荐算法所带来的影响</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8E%A8%E8%8D%90%E7%AE%97%E6%B3%95%E5%8E%9F%E6%9C%AC%E5%BA%94%E8%AF%A5%E5%8F%91%E6%8C%A5%E7%9A%84%E4%BD%9C%E7%94%A8"><span class="nav-number">4.</span> <span class="nav-text"> 推荐算法原本应该发挥的作用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%8E%E8%AE%B0"><span class="nav-number">5.</span> <span class="nav-text"> 后记</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">善国峻</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">10</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">13</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/UdUklm" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;UdUklm" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:me@ohmysites.com" title="E-Mail → mailto:me@ohmysites.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://www.ohmysites.com/archives/19/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="善国峻">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="霞之彼端">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          黄、赌、毒，以及被滥用的推荐算法
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-01-06 13:45:43" itemprop="dateCreated datePublished" datetime="2021-01-06T13:45:43+08:00">2021-01-06</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/causeries/" itemprop="url" rel="index"><span itemprop="name">随笔</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>在高二的一个夜晚，我无意中刷当时网易新闻 App 新推出的短视频功能（大概 2015 年，当时还没有抖音）刷到了凌晨 4 点，在我头痛欲裂的同时，我开始意识到一件事，互联网行业出现了一种颠覆性的新的玩法，并且我很明确地不喜欢这个新的事物。自那以后，我和自己明确了一个原则，那就是永不使用有刷不完的推荐信息流（包括但不限于视频）的手机 App。站在 2021 年的今天，我依旧艰难的坚持着这个原则。之所以坚持的这么艰难，最主要的原因就是，我很难找出一款没有无限推荐信息流的大众 App。几年的时间里，从网易云音乐，到 B 站，再到淘宝京东……而就在 2020 年年末，知乎将产品逻辑从订阅转换为推荐的时候，我忍痛卸载了手机上的知乎 App。渐渐地，我的手机基本上回到了它原本的名字：移动电话。</p>
+<p>就在我写这篇文章的时候，何同学发了一个视频：</p>
+<div><iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?cid=277835841&aid=246051041&page=1&as_wide=1&high_quality=1&danmaku=1" frameborder="no" scrolling="no" framespacing="0" allowfullscreen="true"></iframe></div>
+<p>其中有一个和我这篇文章很像的观点，那就是互联网公司在尽全力榨取用户的时间：</p>
+<blockquote class="blockquote-center">
+<p>手机并不好玩，不少人在手机上投入大量时间其实是借助手机来缓解焦虑</p>
+
+</blockquote>
+<p>这也是这篇文章的观点之一。而这篇文章还有另一个观点，那就是在我心里，黄、赌、毒，以及被滥用的推荐算法，其实是四个并列的概念。</p>
+<p>在我看来，从某个角度上来说，世界上只有三种人，一种是刷手机来缓解焦虑的人，一种是沉迷手机世界而对现实无感的人，最后一种是没有手机依赖症的人。</p>
+<a id="more"></a>
+<div class="note primary"><p>推荐算法作为一种新生事物，自然有好的一面也有不好的一面，这篇文章<strong>只讨论被滥用的推荐算法</strong>，即互联网公司为了利益，利用人性的弱点，让用户在没有主动获取信息的时候被动接受来自推荐算法的信息，或者利用刷不完的推荐信息流等形式恶意抢占用户时间。本文中所说的推荐算法，除了特别说明的，都是指被滥用的推荐算法。</p>
+</div>
+<h2 id="手机是最易获得的减压玩具"><a class="markdownIt-Anchor" href="#手机是最易获得的减压玩具"></a> 手机是最易获得的减压玩具</h2>
+<p>绝大多数一不小心刷了几个小时手机之后又疯狂后悔的人，其实是把手机当成了减压玩具；并且这些人也很明白，刷完手机压力会更大。</p>
+<p>虽然我很多时候都能比其他人提前完成任务，但是事实上我依然是一个拖延症晚期患者。我的经验可能不能覆盖所有拖延症患者，但是我自己很清醒，对于我的这种拖延症，最大的诱因就是焦虑的情绪。</p>
+<blockquote class="blockquote-center">
+<p>焦虑，源于对未来某个事件的不确定结果的担心和恐惧。</p>
+
+</blockquote>
+<p>对于我个人而言，最典型的焦虑场景就是考试，尤其是升学考试。</p>
+<p>人是一种很奇怪的动物，在面对焦虑的时候会本能地做出一些行为，而这些行为往往对于缓解焦虑或者获得一个更好的结果毫无作用。比较典型的行为包括：啃指甲、咬嘴唇、玩各种可以玩的小东西（比如衣角，辫子），以及最致命的，逃避。</p>
+<p>假如我对一些无足轻重的事情产生了焦虑情绪，那我经常会直接选择最坏的结果，这样就能以最快速度彻底释放焦虑的情绪。然而遗憾的是，生活中遇到的大部分能产生焦虑的事情都很重要，比如升学、Deadline，或者面对自己喜欢的人。</p>
+<p>但是哪怕是遇到了这些重要的事情，人也会不自觉地选择逃避。面对自己喜欢的人会逃避，Deadline 的前一个星期会逃避（即拖延），升学备考的过程中也会逃避，比如拿出手机……</p>
+<p>毫无疑问的一点是，手机（里安装的 App），作为绝大部分人手边最容易拿到的一件东西，成为了最易获得的减压玩具。那么问题就来了，是谁设计了这些减压玩具呢？</p>
+<img src="/archives/19/19_1.jpg" class="" title="老虎机">
+<p>这是老虎机，由于中国法律的限制，绝大多数中国人应该只在港片里见过这种赌博机器。投币之后老虎机上会随机出现三种图案，而假如三个图案一样，老虎机就会成倍地吐出硬币。如此简单的一种机器却让全世界的人为之疯狂，其背后的成瘾原理也很简单：<strong>人类会对揭晓未知结果的这个过程产生快感</strong>（多巴胺）。</p>
+<p>人会在枯燥的信息流上耗费一整个美好夜晚的原因也是如此：你永远不知道下一个刷到的东西会是什么。</p>
+<p>但是这里有一个问题，老虎机出现相同图案的概率不算很低，但是随机的视频或者图片很难让一个普通人获得足够的快感，一般人在刷个几分钟之后便会自觉停止。这个时候，推荐算法的出现，让信息流完成了由精选信息到老虎机的究极进化。</p>
+<p>心理学上有一个经典的实验，让一个人喝一碗汤，而这碗汤会很慢地不被察觉地加汤，结果就是喝汤的人会喝到很撑才会停下，并且开始意识到事情不对劲。很明显，互联网人学习过这个实验，并且学的很好。某些互联网平台为了赚钱，甚至从心理学里汲取灵感，将各种各样的老虎机精心包装成 App 的样子，实在是令人恶心的行为。</p>
+<h2 id="贩毒开赌场的互联网企业"><a class="markdownIt-Anchor" href="#贩毒开赌场的互联网企业"></a> “贩毒开赌场”的互联网企业</h2>
+<p>如果说到黄赌毒的共同特征，绝大部分人都会想到这三样东西对于个人、家庭、国家都会带来巨大的危害，这一点推荐算法也不例外。对于个人，沉迷手机影响工作效率；对于家庭，家长们都把孩子放在一边然后自己玩手机，等孩子长大一点就直接给一部手机让孩子自己玩……</p>
+<p>但是这四者还有一个共同特征，那就是从某种程度上来说，这四者发展到一定程度，很大程度都是上瘾了。上瘾的原因也是一样的，那就是太爽了。</p>
+<p>当一个人体会过嫖妓的“爽”之后，便会对现实中艰难的求偶过程失去兴趣，或者是和另一半 ML 时因为需要保证对方“有爽到”而心累；当一个人体会过一分钟几十上百万的财富暴涨之后，便会对现实中辛辛苦苦一个月几千块的工资失去兴趣；吸毒就更不必说了，就连富二代和明星这样的现充也会沉迷于吸毒。</p>
+<p>在《天亮之前》里，郭富城扮演的赌徒的一句台词令我印象深刻：</p>
+<blockquote class="blockquote-center">
+<p>赌博有三重境界，不怕输，输不怕，怕不输。</p>
+
+</blockquote>
+<p>赌博真正到了第三重境界以后，其实享受的并不是赚钱，而是财富迅速变化所产生的那种快感。为什么嫖娼只有零次和无数次？为什么很多吸毒人员在解毒之后还会复吸？为什么赌徒明知道自己一定会输，但还是收不回下注的手？都是多巴胺在作祟。</p>
+<p>网游会上瘾，手机游戏会上瘾，甚至刷短视频都会上瘾，都是相似的原理。但可怕的是，黄赌毒是法律明令禁止的行为，国家对于各种游戏也有相应的政策和监管措施，而推荐算法仍然是随处可摘的“大麻”。</p>
+<h2 id="推荐算法所带来的影响"><a class="markdownIt-Anchor" href="#推荐算法所带来的影响"></a> 推荐算法所带来的影响</h2>
+<p>推荐算法所带来的影响有很多，信息茧房等等内容我在<a href="https://www.ohmysites.com/archives/1/#%E6%95%B0%E6%8D%AE%E5%AD%A4%E5%B2%9B%E7%88%86%E5%8F%91%E9%95%BF%E5%B0%BE%E6%95%88%E5%BA%94%E5%A4%B1%E6%95%88">这篇文章</a>里已经大概聊过，这里我再简单聊聊推荐算法对广告投放和内容平台的垄断两个方面的影响。</p>
+<p>从商业上来讲，推荐算法可以说是商业上的一次颠覆性的进步。著名“营销先驱” John Wanamaker 曾经提出广告界的哥特巴赫猜想：</p>
+<blockquote class="blockquote-center">
+<p>我在广告上的投资有一半是无用的，但问题是我不知道是哪一半。</p>
+
+</blockquote>
+<p>推荐算法的出现很完美地解决了广告界的这一难题。由于推荐算法都是基于大数据分析，广告投放平台可以很容易地知道自己投放的广告被多少人观看，其中有多少男性，有多少学生，有多少孕期母亲。广告投放平台也能很容易地控制广告的投放，防脱发广告和增高广告只投放给男性，卖课广告只投放给学生，孕妇产品广告只投放给孕期母亲，从而提高广告的转化率。</p>
+<p>互联网平台的垄断地位，尤其是主打内容的互联网平台的垄断地位，推荐算法功不可没。平台可以通过推荐算法，让用户看到平台想让用户看到的内容，而不是用户真正想看到的内容，甚至以此来限制内容创作者。不少互联网内容平台正向着最糟糕的方向急速狂奔，背离了互联网诞生之初的愿望。</p>
+<h2 id="推荐算法原本应该发挥的作用"><a class="markdownIt-Anchor" href="#推荐算法原本应该发挥的作用"></a> 推荐算法原本应该发挥的作用</h2>
+<p>在我的想象中，推荐算法的正确打开方式，应该是在我<strong>主动</strong>搜索某个信息的时候，系统能快速推荐给我<strong>最想要</strong>的那个信息。在我看来，所有被动推荐的信息都是不必要的，甚至会加剧信息茧房的形成。人在被动接受信息的时候还是随机一点好，不然很容易对这个世界产生错误的认知和理解。</p>
+<h2 id="后记"><a class="markdownIt-Anchor" href="#后记"></a> 后记</h2>
+<p>因为数字经济成为了中国新的经济增长引擎，所以在去年以前政府对于互联网的行为更多的是在摸索合适的监管力度。最近一两年，随着整个社会对于推荐算法的关注，国家对于推荐算法的监管也会逐步完善。但是我觉得这个过程太慢了。我希望能有一部分渴望自律的人，能首先站出来，勇敢地向推荐算法说不，并用行动抵制那些“贩毒开赌场”的互联网企业。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <div></div>
+  <button onclick="document.querySelector('.post-reward').classList.toggle('active');">
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/wechat.jpeg" alt="善国峻 微信">
+        <span>微信</span>
+      </div>
+      <div>
+        <img src="/images/ali.jpeg" alt="善国峻 支付宝">
+        <span>支付宝</span>
+      </div>
+
+  </div>
+</div>
+
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>善国峻
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://www.ohmysites.com/archives/19/" title="黄、赌、毒，以及被滥用的推荐算法">https://www.ohmysites.com/archives/19/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/%E4%BA%92%E8%81%94%E7%BD%91/" rel="tag"><i class="fa fa-tag"></i> 互联网</a>
+              <a href="/tags/%E6%8E%A8%E8%8D%90%E7%AE%97%E6%B3%95/" rel="tag"><i class="fa fa-tag"></i> 推荐算法</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/archives/15/" rel="prev" title="NeoValine：一个基于 Valine 开发的支持人工审核的评论系统">
+                  <i class="fa fa-chevron-left"></i> NeoValine：一个基于 Valine 开发的支持人工审核的评论系统
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/archives/20/" rel="next" title="当我们在说传统文化的时候，我们到底在说什么">
+                  当我们在说传统文化的时候，我们到底在说什么 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 2020 – 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">善国峻</span>
+</div>
+  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">滇ICP备 20000606 号 </a>
+    </br><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=53042502001070" rel="noopener" target="_blank">滇公网安备 53042502001070 号 </a>
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script size="300" alpha="0.6" zIndex="-1" src="/js/custom/canvas-ribbon.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-core.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.22.0/plugins/autoloader/prism-autoloader.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@next-theme/pjax@0.4.0/pjax.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script><script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '.page-configurations',
+    '.main-inner',
+    '.post-toc-wrap',
+    '.languages',
+    '.pjax'
+  ],
+  analytics: false,
+  cacheBust: false,
+  scrollRestoration: false,
+  scrollTo: !CONFIG.bookmark.enable
+});
+
+document.addEventListener('pjax:success', () => {
+  pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  const hasTOC = document.querySelector('.post-toc');
+  document.querySelector('.sidebar-inner').classList.toggle('sidebar-nav-active', hasTOC);
+  document.querySelector(hasTOC ? '.sidebar-nav-toc' : '.sidebar-nav-overview').click();
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+  
+
+
+
+    <div class="pjax">
+
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+  <script src="//cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/copy-tex.min.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/copy-tex.min.css">
+
+
+
+<script type="text/javascript" src="/js/custom/egg.js"></script>
+
+
+
+    </div>
+</body>
+</html>

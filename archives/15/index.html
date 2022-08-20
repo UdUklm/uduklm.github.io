@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#f03752">
+<meta name="generator" content="Hexo 5.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+  <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#f03752">
+
+<link rel="stylesheet" href="/css/main.css?verson=5.4">
+
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"www.ohmysites.com","root":"/","images":"/images","scheme":"Gemini","version":"8.2.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":true,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":true,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.1.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":false}};
+  </script>
+<meta name="description" content="终于，我的评论系统开发成功了 🎉🎉🎉 我将其命名为 NeoValine 🥳 项目链接：  GitHub-前端源码 GitHub-后端源码   简介 NeoValine 是一款基于 Valine 开发的，有后端和控制面板的，支持人工审核（先审核后显示）的快速、简洁且高效的评论系统。  特点  本地化部署 管理员控制面板 先审核后显示的审核方法 免费开源无广告（GPL-2.0 License）">
+<meta property="og:type" content="article">
+<meta property="og:title" content="NeoValine：一个基于 Valine 开发的支持人工审核的评论系统">
+<meta property="og:url" content="https://www.ohmysites.com/archives/15/">
+<meta property="og:site_name" content="霞之彼端">
+<meta property="og:description" content="终于，我的评论系统开发成功了 🎉🎉🎉 我将其命名为 NeoValine 🥳 项目链接：  GitHub-前端源码 GitHub-后端源码   简介 NeoValine 是一款基于 Valine 开发的，有后端和控制面板的，支持人工审核（先审核后显示）的快速、简洁且高效的评论系统。  特点  本地化部署 管理员控制面板 先审核后显示的审核方法 免费开源无广告（GPL-2.0 License）">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-06-26T14:02:52.000Z">
+<meta property="article:modified_time" content="2021-01-06T06:34:30.000Z">
+<meta property="article:author" content="善国峻">
+<meta property="article:tag" content="博客">
+<meta property="article:tag" content="评论系统">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://www.ohmysites.com/archives/15/">
+
+
+<script data-pjax class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+<title>NeoValine：一个基于 Valine 开发的支持人工审核的评论系统 | 霞之彼端</title>
+  
+
+  <script data-pjax>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?4f92a9d224fbaf132652e580d3ea568a";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">霞之彼端</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>本站首页</a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>文章总览</a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>文章分类</a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签整理</a></li>
+        <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于更多</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>内容搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AE%80%E4%BB%8B"><span class="nav-number">1.</span> <span class="nav-text"> 简介</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%B9%E7%82%B9"><span class="nav-number">1.1.</span> <span class="nav-text"> 特点</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%AA%E6%9D%A5%E6%89%93%E7%AE%97%E6%94%AF%E6%8C%81"><span class="nav-number">1.2.</span> <span class="nav-text"> 未来打算支持</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BC%80%E5%8F%91-neovaline-%E7%9A%84%E7%90%86%E7%94%B1"><span class="nav-number">2.</span> <span class="nav-text"> 开发 NeoValine 的理由</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#valine"><span class="nav-number">2.1.</span> <span class="nav-text"> Valine</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%95%85%E8%A8%80"><span class="nav-number">2.2.</span> <span class="nav-text"> 畅言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#github-%E7%B3%BB%E5%88%97"><span class="nav-number">2.3.</span> <span class="nav-text"> GitHub 系列</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#disqus-%E7%B3%BB%E5%88%97"><span class="nav-number">2.4.</span> <span class="nav-text"> Disqus 系列</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#boomneovaline"><span class="nav-number">2.5.</span> <span class="nav-text"> Boom！NeoValine！</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%8E%E7%AB%AF%E9%83%A8%E7%BD%B2%E6%96%B9%E6%B3%95"><span class="nav-number">3.</span> <span class="nav-text"> 后端部署方法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#requirements"><span class="nav-number">3.1.</span> <span class="nav-text"> Requirements</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%83%A8%E7%BD%B2-django-%E7%A8%8B%E5%BA%8F"><span class="nav-number">3.2.</span> <span class="nav-text"> 部署 Django 程序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8-uwsgi-%E9%83%A8%E7%BD%B2-django-%E7%A8%8B%E5%BA%8F"><span class="nav-number">3.3.</span> <span class="nav-text"> 使用 uwsgi 部署 Django 程序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8-systemd-%E5%AE%88%E6%8A%A4%E8%BF%9B%E7%A8%8B"><span class="nav-number">3.4.</span> <span class="nav-text"> 使用 Systemd 守护进程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8-nginx-%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86"><span class="nav-number">3.5.</span> <span class="nav-text"> 使用 Nginx 反向代理</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E7%AB%AF%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95"><span class="nav-number">4.</span> <span class="nav-text"> 前端使用方法</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">善国峻</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">10</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">13</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/UdUklm" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;UdUklm" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:me@ohmysites.com" title="E-Mail → mailto:me@ohmysites.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://www.ohmysites.com/archives/15/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="善国峻">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="霞之彼端">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          NeoValine：一个基于 Valine 开发的支持人工审核的评论系统
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2020-06-26 22:02:52" itemprop="dateCreated datePublished" datetime="2020-06-26T22:02:52+08:00">2020-06-26</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/projects/" itemprop="url" rel="index"><span itemprop="name">我的项目</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>终于，我的评论系统开发成功了 🎉🎉🎉 我将其命名为 NeoValine 🥳</p>
+<p>项目链接：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/UdUklm/NeoValine">GitHub-前端源码</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/UdUklm/NeoValineBackend">GitHub-后端源码</a></li>
+</ul>
+<h2 id="简介"><a class="markdownIt-Anchor" href="#简介"></a> 简介</h2>
+<p>NeoValine 是一款基于 <a target="_blank" rel="noopener" href="https://valine.js.org/">Valine</a> 开发的，有后端和控制面板的，支持人工审核（先审核后显示）的快速、简洁且高效的评论系统。</p>
+<div class="note primary"><h3 id="特点"><a class="markdownIt-Anchor" href="#特点"></a> 特点</h3>
+<ul>
+<li>本地化部署</li>
+<li>管理员控制面板</li>
+<li>先审核后显示的审核方法</li>
+<li>免费开源无广告（GPL-2.0 License）</li>
+<li>前端基于 Valine 开发，快速、简洁、高效</li>
+</ul>
+</div>
+<h3 id="未来打算支持"><a class="markdownIt-Anchor" href="#未来打算支持"></a> 未来打算支持</h3>
+<ul>
+<li>使用 Docker 来简化部署</li>
+<li>简单的文章访客统计和网站访客统计</li>
+<li>更高程度的用户自定义</li>
+<li>移除或改进可能造成隐私泄露的功能</li>
+</ul>
+<a id="more"></a>
+<h2 id="开发-neovaline-的理由"><a class="markdownIt-Anchor" href="#开发-neovaline-的理由"></a> 开发 NeoValine 的理由</h2>
+<p>评论系统是博客中很重要的一部分，是网站与访问者沟通交流的重要渠道。有不少开发者都为博客系统开发了好用的评论系统，比如 <a target="_blank" rel="noopener" href="https://valine.js.org/">Valine</a>。这些评论系统可以在无服务器的情况下部署使用。</p>
+<p>但是我的网站是在中国大陆注册的，进行了 ICP 备案和公网备案。而根据公网备案的相关要求，我的网站上的评论系统必须具有<mark>先审核后显示</mark>的功能。</p>
+<p>但是我找遍了全网的评论系统，全都难以符合我的要求，所以我决定自己开发一套有先审核后显示功能的评论系统。</p>
+<p>为什么我说全网的评论系统都难以符合我的要求呢？</p>
+<p>首先一个问题就是这些评论系统的数据都存储在他们的服务器上。假如哪天这些厂商倒闭了或者开发者弃坑了，数据转移是一个很大的问题。</p>
+<h3 id="valine"><a class="markdownIt-Anchor" href="#valine"></a> Valine</h3>
+<p>基于 <a target="_blank" rel="noopener" href="https://www.leancloud.cn/">LeanCloud</a> 的 Server-less 评论系统，界面很漂亮。</p>
+<p>官网链接：<a target="_blank" rel="noopener" href="https://valine.js.org/">Valine</a></p>
+<p>其实在 LeanCloud 上部署 <a target="_blank" rel="noopener" href="https://github.com/DesertsP/Valine-Admin">Valine-Admin</a> 是可以有人工审核的功能的，但是由于 LeanCloud 的应用无法 24h 提供服务，每天强制停止服务 6 小时（可以正常评论，但是部署的应用无法正常工作），这就导致了在上面部署的应用在某部分时间段里是失效的。</p>
+<p>假如每天只在 7:00~23:59 之间服务，则会导致以下问题：</p>
+<ul>
+<li>该时间段内的评论会直接通过审核，这应该是一个漏洞。</li>
+<li>该时间段内的评论不会及时提醒。</li>
+</ul>
+<p>除此之外，Valine-Admin 的评论管理界面对移动端的适配也有点问题。</p>
+<h3 id="畅言"><a class="markdownIt-Anchor" href="#畅言"></a> 畅言</h3>
+<p>有人工审核的功能，但是界面过时，且免费版有广告。</p>
+<h3 id="github-系列"><a class="markdownIt-Anchor" href="#github-系列"></a> GitHub 系列</h3>
+<p>包括 gitment，gitalk 和 gitter。</p>
+<p>没有人工审核应该是唯一的缺点。</p>
+<h3 id="disqus-系列"><a class="markdownIt-Anchor" href="#disqus-系列"></a> Disqus 系列</h3>
+<p>使用 Facebook、Tweeter 登录评论不符合国情，没有人工审核的功能，且被墙的可能性很大。</p>
+<h3 id="boomneovaline"><a class="markdownIt-Anchor" href="#boomneovaline"></a> Boom！NeoValine！</h3>
+<p>Serverless 是近几年前端技术的趋势之一，也是 Valine 坚持的理念之一。但是我仍然坚持自己开发后端程序。</p>
+<p>首先是因为费用问题，一些 Serverless 的服务，比如 LeanCloud，无法支持全天 24 小时提供服务，每天必须强制休眠一段时间。</p>
+<p>其次是因为没有美观舒服的后台系统。因为经常要进入后台审核评论，后台的功能性（比如对数据的简单筛选）和美观性很难保证。想要实现的话很大程度上还要自己开发应用并在 LeanCloud 部署。</p>
+<p>再者，评论数据的后期迁移也是一件不简单的事情。这主要是考虑 LeanCloud 某天可能会停止服务的情况。</p>
+<p>最后，我的网站是部署在服务器上的，顺便还可以积累一下从开发到部署的经验。</p>
+<h2 id="后端部署方法"><a class="markdownIt-Anchor" href="#后端部署方法"></a> 后端部署方法</h2>
+<p>实例环境：<code>CentOS 7.8.2003</code></p>
+<p>这里给出的安装策略是：使用 uwsgi 在 localhost 运行 Django 后端程序，使用 Systemd 守护进程，使用 Nginx 反向代理 API 接口。</p>
+<p>如果你青睐于使用跨域，感谢 <a target="_blank" rel="noopener" href="https://github.com/OuYanghaoyue">OuYanghaoyue</a> 的贡献，NeoValine 现已支持跨域部署。</p>
+<h3 id="requirements"><a class="markdownIt-Anchor" href="#requirements"></a> Requirements</h3>
+<ul>
+<li><code>Python &gt;= 3.7</code></li>
+<li><code>pip</code></li>
+<li><code>uwsgi</code></li>
+<li><code>sqlite3</code></li>
+<li><code>nginx</code></li>
+<li><code>systemd</code></li>
+</ul>
+<p>比较老的 Linux 版本可能不支持 <code>Python3.7</code>，需要自己编译安装。这些环境的安装教程网上已有大把文章，这里不再赘述。</p>
+<h3 id="部署-django-程序"><a class="markdownIt-Anchor" href="#部署-django-程序"></a> 部署 Django 程序</h3>
+<p>首先在服务器上获得项目代码：</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash">git clone https:&#x2F;&#x2F;github.com&#x2F;UdUklm&#x2F;NeoValineBackend --depth 1</code></pre>
+<p>编辑 <code>NeoValineBackend/NeoValineBackend/hidden_options.py</code>，并按照提示填写参数：</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash">cd  NeoValineBackend&#x2F;NeoValineBackend&#x2F;
+mv hidden_options.py.example hidden_options.py
+vim hidden_options.py</code></pre>
+<p>返回项目根目录。</p>
+<p>在项目根目录生成数据库：</p>
+<pre class="language-none"><code class="language-none">sqlite3 db.sqlite3</code></pre>
+<p>安装 Virtualenv 并创建虚拟环境，安装依赖：</p>
+<pre class="language-none"><code class="language-none">pip install virtualenv
+virtualenv venv
+source venv&#x2F;bin&#x2F;activate
+pip install -r requirements.txt</code></pre>
+<p>生成数据库表：</p>
+<pre class="language-none"><code class="language-none">python manage.py makemigrations user
+python manage.py makemigrations comment
+python manage.py makemigrations
+python manage.py migrate user
+python manage.py migrate comment
+python manage.py migrate</code></pre>
+<p>生成超级管理员，并填写信息：</p>
+<pre class="language-none"><code class="language-none">python manage.py createsuperuser</code></pre>
+<p>生成静态文件夹：</p>
+<pre class="language-none"><code class="language-none">python manage.py collectstatic</code></pre>
+<p>到这里程序已经准备完成，如果想检测是否出错，可以将 <code>https://github.com/UdUklm/NeoValineBackend/blob/master/NeoValineBackend/settings.py</code> 中的 <code>DEBUG</code> 置为 <code>True</code>，之后运行 <code>python manage.py runserver</code> 查看效果。<strong>注意</strong>之后勿忘将 <code>DEBUG</code> 置回 <code>False</code>。</p>
+<h3 id="使用-uwsgi-部署-django-程序"><a class="markdownIt-Anchor" href="#使用-uwsgi-部署-django-程序"></a> 使用 uwsgi 部署 Django 程序</h3>
+<p>生成一个 <code>uwsgi.ini</code> 文件，按照下列提示填入：</p>
+<pre class="language-none"><code class="language-none">[uwsgi]
+pid &#x3D; run_user
+chdir &#x3D; path_to_NeoValineBackend
+master &#x3D; true
+processes &#x3D; 1
+threads &#x3D; 2
+http &#x3D; 127.0.0.1:8080
+static-map &#x3D; &#x2F;static&#x3D;path_to_static_folder
+vacuum &#x3D; true
+home &#x3D; path_to_venv
+wsgi-file &#x3D; path_to_&#x2F;NeoValineBackend&#x2F;NeoValineBackend&#x2F;wsgi.py
+logto &#x3D; log_location_you_want</code></pre>
+<p>记住该文件的位置</p>
+<h3 id="使用-systemd-守护进程"><a class="markdownIt-Anchor" href="#使用-systemd-守护进程"></a> 使用 Systemd 守护进程</h3>
+<pre class="language-bash" data-language="bash"><code class="language-bash">cd &#x2F;etc&#x2F;systemd&#x2F;system
+touch neovaline.servise</code></pre>
+<p>编辑 <code>neovaline.servise</code>:</p>
+<pre class="language-none"><code class="language-none">[Unit]
+Description&#x3D;NeoValine Backend Service
+After&#x3D;syslog.target
+
+[Service]
+KillSignal&#x3D;SIGQUIT
+ExecStart&#x3D;&#x2F;usr&#x2F;local&#x2F;python3&#x2F;bin&#x2F;uwsgi --ini path_to_uwsgi.ini
+Restart&#x3D;always
+Type&#x3D;notify
+NotifyAccess&#x3D;all
+StandardError&#x3D;syslog
+
+[Install]
+WantedBy&#x3D;multi-user.target</code></pre>
+<p>相关命令：</p>
+<pre class="language-none"><code class="language-none">systemctl start neovaline  # 开启服务
+systemctl enable neovaline  # 开机自启
+systemctl stop neovaline  # 关闭服务</code></pre>
+<p>开启后可以使用 <code>netstat -ntlp</code> 检测本地 <code>8080</code> 端口运行情况。</p>
+<h3 id="使用-nginx-反向代理"><a class="markdownIt-Anchor" href="#使用-nginx-反向代理"></a> 使用 Nginx 反向代理</h3>
+<p>在网站的 Nginx 配置文件中加入：</p>
+<pre class="language-none"><code class="language-none">location &#x2F;api&#x2F; &#123;
+    proxy_pass http:&#x2F;&#x2F;127.0.0.1:8080;
+    access_log log_location_you_want;
+&#125;</code></pre>
+<p>即将所有以 <code>/api/</code> 开头的请求转发到 <code>127.0.0.1:8080</code>。</p>
+<h2 id="前端使用方法"><a class="markdownIt-Anchor" href="#前端使用方法"></a> 前端使用方法</h2>
+<p>前端的部署参考 <a target="_blank" rel="noopener" href="https://valine.js.org/configuration.html">Valine</a> 的部署方法。</p>
+<p>但是有些参数不支持，比如 <code>appId</code> 和 <code>appKey</code>，示例配置如下：</p>
+<pre class="language-js" data-language="js"><code class="language-js">&lt;script&gt;
+new Valine(&#123;
+  el         : &#39;#valine-comments&#39;,
+  placeholder: &#39;评论在后台人工审核后可见；\n留下邮箱可以接收回复等通知 ~&#39;,
+  avatar     : &#39;mm&#39;,
+  meta       : guest,
+  pageSize   : 10,
+  visitor    : false,
+  lang       : &#39;zh-cn&#39;,
+  recordIP   : false
+&#125;);
+&lt;&#x2F;script&gt;</code></pre>
+<p>之后把 Valine.min.js 路径引入 html，并把 <code>&lt;div class=&quot;comments&quot; id=&quot;valine-comments&quot;&gt;&lt;/div&gt;</code> 放到你网页中想让评论页面出现的地方就行了。</p>
+<p>Valine.min.js文件：<a target="_blank" rel="noopener" href="https://github.com/UdUklm/NeoValine/tree/master/dist">https://github.com/UdUklm/NeoValine/tree/master/dist</a></p>
+<p>或者你可以使用 CDN：<code>cdn.jsdelivr.net/gh/OuYanghaoyue/NeoValine@0.1/dist/Valine.min.js</code></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <div></div>
+  <button onclick="document.querySelector('.post-reward').classList.toggle('active');">
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/wechat.jpeg" alt="善国峻 微信">
+        <span>微信</span>
+      </div>
+      <div>
+        <img src="/images/ali.jpeg" alt="善国峻 支付宝">
+        <span>支付宝</span>
+      </div>
+
+  </div>
+</div>
+
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>善国峻
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://www.ohmysites.com/archives/15/" title="NeoValine：一个基于 Valine 开发的支持人工审核的评论系统">https://www.ohmysites.com/archives/15/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag"><i class="fa fa-tag"></i> 博客</a>
+              <a href="/tags/%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/" rel="tag"><i class="fa fa-tag"></i> 评论系统</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/archives/10/" rel="prev" title="Windows 内存释放后写入漏洞的简单利用">
+                  <i class="fa fa-chevron-left"></i> Windows 内存释放后写入漏洞的简单利用
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/archives/19/" rel="next" title="黄、赌、毒，以及被滥用的推荐算法">
+                  黄、赌、毒，以及被滥用的推荐算法 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 2020 – 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">善国峻</span>
+</div>
+  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">滇ICP备 20000606 号 </a>
+    </br><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=53042502001070" rel="noopener" target="_blank">滇公网安备 53042502001070 号 </a>
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script size="300" alpha="0.6" zIndex="-1" src="/js/custom/canvas-ribbon.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-core.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.22.0/plugins/autoloader/prism-autoloader.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@next-theme/pjax@0.4.0/pjax.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script><script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '.page-configurations',
+    '.main-inner',
+    '.post-toc-wrap',
+    '.languages',
+    '.pjax'
+  ],
+  analytics: false,
+  cacheBust: false,
+  scrollRestoration: false,
+  scrollTo: !CONFIG.bookmark.enable
+});
+
+document.addEventListener('pjax:success', () => {
+  pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  const hasTOC = document.querySelector('.post-toc');
+  document.querySelector('.sidebar-inner').classList.toggle('sidebar-nav-active', hasTOC);
+  document.querySelector(hasTOC ? '.sidebar-nav-toc' : '.sidebar-nav-overview').click();
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+  
+
+
+
+    <div class="pjax">
+
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+  <script src="//cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/copy-tex.min.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/copy-tex.min.css">
+
+
+
+<script type="text/javascript" src="/js/custom/egg.js"></script>
+
+
+
+    </div>
+</body>
+</html>
