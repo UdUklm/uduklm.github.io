@@ -29,8 +29,8 @@ html, body{
 
 #letter{
 	color: #FFF;
-	font-size: 150%;
-	line-height: 170%;
+	font-size: 120%;
+	line-height: 150%;
     text-align: center;
 	width:100%;
 	position: absolute;
@@ -44,8 +44,8 @@ html, body{
 
 @media screen and (max-width:600px){
 	#letter{
-		font-size: 140%;
-		line-height: 170%;
+		font-size: 120%;
+		line-height: 150%;
 	}
 }
 
