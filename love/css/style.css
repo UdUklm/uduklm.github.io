@@ -1,0 +1,197 @@
+html, body{
+	margin:0px;
+	padding:0px;
+	height:100%;
+	background-image: url(../image/texture.png) !important;
+	font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+
+	/* http://zhongguose.com/#danruixianghong */
+	/* 淡蕊香红 */
+	/* background: #ee4866; */
+
+	/* http://zhongguose.com/#haitanghong */
+	/* 海棠红 */
+	/* background: #f03752; */
+
+	/* http://zhongguose.com/#hushuilan */
+	/* 湖水蓝 */
+	background:#b0d5df;
+
+	/* http://zhongguose.com/#yuanweilan */
+	/* 鸢尾蓝 */
+	/* background: #158bb8; */
+
+	/* http://zhongguose.com/#yunshanlan */
+	/* 云山蓝 */
+	/* background: #2f90b9; */
+}
+
+
+#letter{
+	color: #FFF;
+	font-size: 150%;
+	line-height: 170%;
+    text-align: center;
+	width:100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width:600px){
+	#letter{
+		font-size: 140%;
+		line-height: 170%;
+	}
+}
+
+*{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+}
+
+#ripples{
+	width:100%;
+	height:100%;
+
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+#heart{
+	-webkit-transition:0.1s;
+	-moz-transition:0.1s;
+	-ms-transition:0.1s;
+	-o-transition:0.1s;
+	transition:0.1s;
+
+	width:258px;
+	height:232px;
+
+	cursor:pointer;
+	
+	position:absolute;
+
+	top:-webkit-calc(50% + 26px - 116px);
+	top:-moz-calc(50% + 26px - 116px);
+	top:-ms-calc(50% + 26px - 116px);
+	top:-o-calc(50% + 26px - 116px);
+	top:calc(50% + 26px - 116px);
+
+	left:-webkit-calc(50% - 129px);
+	left:-moz-calc(50% - 129px);
+	left:-ms-calc(50% - 129px);
+	left:-o-calc(50% - 129px);
+	left:calc(50% - 129px);
+
+	-webkit-transform-origin:50% 50%;
+	-moz-transform-origin:50% 50%;
+	-ms-transform-origin:50% 50%;
+	-o-transform-origin:50% 50%;
+	transform-origin:50% 50%;
+
+	-webkit-transform:scale(1);
+	-moz-transform:scale(1);
+	-ms-transform:scale(1);
+	-o-transform:scale(1);
+	transform:scale(1);
+}
+
+#heart:active{
+	-webkit-transition:none;
+	-moz-transition:none;
+	-ms-transition:none;
+	-o-transition:none;
+	transition:none;
+
+	-webkit-transform:scale(0.98);
+	-moz-transform:scale(0.98);
+	-ms-transform:scale(0.98);
+	-o-transform:scale(0.98);
+	transform:scale(0.98);
+}
+
+#heart .box{
+	width:26px;
+	height:26px;
+	background:transparent;
+	float:left;
+	margin-top:3px;
+	margin-right:3px;
+	text-align: center;
+	line-height: 26px;
+	font-weight: bold;
+	color: #de2121;
+	font-size: 20px;
+
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	-o-user-select:none;
+	user-select:none;
+}
+
+@media screen and (max-width:600px){
+	#heart{
+		width:204px;
+		height:184px;
+
+		top:-webkit-calc(50% + 20px - 92px);
+		top:-moz-calc(50% + 20px - 92px);
+		top:-ms-calc(50% + 20px - 92px);
+		top:-o-calc(50% + 20px - 92px);
+		top:calc(50% + 20px - 92px);
+
+		left:-webkit-calc(50% - 102px);
+		left:-moz-calc(50% - 102px);
+		left:-ms-calc(50% - 102px);
+		left:-o-calc(50% - 102px);
+		left:calc(50% - 102px);
+	}
+
+	#heart .box{
+		width:20px;
+		height:20px;
+		line-height:20px;
+		font-size:16px;
+	}
+}
+
+#heart .box:nth-child(9n){
+	margin-right:0px;
+}
+
+#heart .box.white{
+	background:#FFF;
+}
+
+header{
+	position:absolute;
+	top:90px;
+	left:0px;
+	width:100%;
+	text-align:center;
+
+	color:#FFF;
+	line-height:30px;
+
+	font-size:24px;
+
+
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	-o-user-select:none;
+	user-select:none;
+}
+
+@media screen and (max-width:600px){
+	header{
+		font-size:24px;
+	}
+}

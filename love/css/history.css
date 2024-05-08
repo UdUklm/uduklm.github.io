@@ -1,0 +1,9 @@
+body {
+    background-image: url(../image/texture.png);
+    background-color: #f8f4ed;
+    font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+#content {
+    text-align: center;
+}
